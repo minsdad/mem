@@ -1,25 +1,26 @@
 body {
 	background-color: black;
-	font-size: 60px;
+	font-size: 120px;
 	color: white;
+	margin: 30px;
 }
 
 .container {
 	position: fixed;
-	top: 30px;
-	right: 60px;
+	top: 60px;
+	right: 120px;
 	background-color: black;
 }
 
 .container input {
-	font: 60px black bold;
-	padding: 6px 12px;
-	border-radius: 15px;
+	font: 120px black bold;
+	padding: 12px 24px;
+	border-radius: 30px;
 }
 
 h1 {
-	font-size: 90px;
-	padding-top: 150px;
+	font-size: 180px;
+	padding-top: 300px;
 	color: white;
 }
 
@@ -32,32 +33,32 @@ p {
 
 span {
 	text-align: center;
-	border-radius: 15px;
-	margin: 15px 31px;
-	padding: 0px 6px;
+	border-radius: 30px;
+	margin: 30px 60px;
+	padding: 0px 12px;
 }
 
 .I_box {
 	display:inline-block;
-	border: 6px solid black;
+	border: 12px solid black;
 }
 
 .Q_box {
 	display:inline-block;
-	min-width:180px;
+	min-width:360px;
 	background-color: white;
-	border: 6px solid powderblue;
+	border: 12px solid powderblue;
 }
 .O_box {
 	display:inline-block;
-	min-width:180px;
-	border: 6px solid cyan;
+	min-width:360px;
+	border: 12px solid cyan;
 	color: cyan;
 }
 .X_box {
 	display:inline-block;
-	min-width:180px;
-	border: 6px solid red;
+	min-width:360px;
+	border: 12px solid red;
 	color: red;	
 }
 
