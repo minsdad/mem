@@ -1,26 +1,28 @@
+html {
+	width: 640px;
+}
 body {
 	background-color: black;
-	font-size: 120px;
+	font-size: 20px;
 	color: white;
-	margin: 30px;
 }
 
 .container {
 	position: fixed;
-	top: 60px;
-	right: 120px;
+	top: 10px;
+	right: 20px;
 	background-color: black;
 }
 
 .container input {
-	font: 120px black bold;
-	padding: 12px 24px;
-	border-radius: 30px;
+	font: 20px black bold;
+	padding: 2px 4px;
+	border-radius: 5px;
 }
 
 h1 {
-	font-size: 180px;
-	padding-top: 300px;
+	font-size: 30px;
+	padding-top: 50px;
 	color: white;
 }
 
@@ -28,37 +30,37 @@ p {
 	display:inline-block;
 	background-color: black;
 	color: white;
-	line-height: 150%;
+	line-height: 130%;
 }
 
 span {
 	text-align: center;
-	border-radius: 30px;
-	margin: 30px 60px;
-	padding: 0px 12px;
+	border-radius: 5px;
+	margin: 3px 1px;
+	padding: 0px 2px;
 }
 
 .I_box {
 	display:inline-block;
-	border: 12px solid black;
+	border: 2px solid black;
 }
 
 .Q_box {
 	display:inline-block;
-	min-width:360px;
+	min-width:60px;
 	background-color: white;
-	border: 12px solid powderblue;
+	border: 2px solid powderblue;
 }
 .O_box {
 	display:inline-block;
-	min-width:360px;
-	border: 12px solid cyan;
+	min-width:60px;
+	border: 2px solid cyan;
 	color: cyan;
 }
 .X_box {
 	display:inline-block;
-	min-width:360px;
-	border: 12px solid red;
+	min-width:60px;
+	border: 2px solid red;
 	color: red;	
 }
 
