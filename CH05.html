@@ -1,0 +1,1912 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>CH05</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="style.css">
+	<script type="text/javascript" src="scripts.js"></script>
+</head>
+
+<body>
+	<!---상단메뉴---->
+	<div class="container">
+		<input type="button" value="목록으로" onclick="Moving()">
+        <input type="button" value=" 20% " onclick="func_make(20)">
+        <input type="button" value=" 30% " onclick="func_make(30)">
+        <input type="button" value=" 40% " onclick="func_make(40)">
+        <input type="button" value="답안제출" onclick="func_score()">
+	</div>
+
+	<!---내용 시작---->
+    <h1>How to Handle Haters</h1>
+
+<p>
+</p>
+<p>
+</p>
+<p>
+
+        <span class="I_box" id="Q_0" onclick="func_toggle('Q_0')">  Have  </span>                
+         
+        <span class="I_box" id="Q_1" onclick="func_toggle('Q_1')">  you   </span>                
+         
+        <span class="I_box" id="Q_2" onclick="func_toggle('Q_2')">  ever  </span>                
+         
+        <span class="I_box" id="Q_3" onclick="func_toggle('Q_3')"> known  </span>                
+         
+        <span class="I_box" id="Q_4" onclick="func_toggle('Q_4')">someone </span>                
+         
+        <span class="I_box" id="Q_5" onclick="func_toggle('Q_5')">  you   </span>                
+         
+        <span class="I_box" id="Q_6" onclick="func_toggle('Q_6')">  just  </span>                
+         
+        <span class="I_box" id="Q_7" onclick="func_toggle('Q_7')">  did   </span>                
+         
+        <span class="I_box" id="Q_8" onclick="func_toggle('Q_8')">  not   </span>                
+         
+        <span class="I_box" id="Q_9" onclick="func_toggle('Q_9')">  get   </span>                
+         
+        <span class="I_box" id="Q_10" onclick="func_toggle('Q_10')"> along  </span>                
+         
+        <span class="I_box" id="Q_11" onclick="func_toggle('Q_11')">  with  </span>                
+        ? 
+        <span class="I_box" id="Q_12" onclick="func_toggle('Q_12')"> Maybe  </span>                
+         
+        <span class="I_box" id="Q_13" onclick="func_toggle('Q_13')">   it   </span>                
+         
+        <span class="I_box" id="Q_14" onclick="func_toggle('Q_14')">  was   </span>                
+         
+        <span class="I_box" id="Q_15" onclick="func_toggle('Q_15')">someone </span>                
+         
+        <span class="I_box" id="Q_16" onclick="func_toggle('Q_16')">  you   </span>                
+         
+        <span class="I_box" id="Q_17" onclick="func_toggle('Q_17')">  had   </span>                
+         
+        <span class="I_box" id="Q_18" onclick="func_toggle('Q_18')">difficulty</span>                
+         
+        <span class="I_box" id="Q_19" onclick="func_toggle('Q_19')">working </span>                
+         
+        <span class="I_box" id="Q_20" onclick="func_toggle('Q_20')">  with  </span>                
+         
+        <span class="I_box" id="Q_21" onclick="func_toggle('Q_21')">   or   </span>                
+         
+        <span class="I_box" id="Q_22" onclick="func_toggle('Q_22')">   it   </span>                
+         
+        <span class="I_box" id="Q_23" onclick="func_toggle('Q_23')"> could  </span>                
+         
+        <span class="I_box" id="Q_24" onclick="func_toggle('Q_24')">  have  </span>                
+         
+        <span class="I_box" id="Q_25" onclick="func_toggle('Q_25')">  been  </span>                
+         
+        <span class="I_box" id="Q_26" onclick="func_toggle('Q_26')">someone </span>                
+         
+        <span class="I_box" id="Q_27" onclick="func_toggle('Q_27')">  you   </span>                
+         
+        <span class="I_box" id="Q_28" onclick="func_toggle('Q_28')">  were  </span>                
+         
+        <span class="I_box" id="Q_29" onclick="func_toggle('Q_29')"> always </span>                
+         
+        <span class="I_box" id="Q_30" onclick="func_toggle('Q_30')">arguing </span>                
+         
+        <span class="I_box" id="Q_31" onclick="func_toggle('Q_31')">  with  </span>                
+        . 
+        <span class="I_box" id="Q_32" onclick="func_toggle('Q_32')">  This  </span>                
+         
+        <span class="I_box" id="Q_33" onclick="func_toggle('Q_33')">  kind  </span>                
+         
+        <span class="I_box" id="Q_34" onclick="func_toggle('Q_34')">   of   </span>                
+         
+        <span class="I_box" id="Q_35" onclick="func_toggle('Q_35')">situation</span>                
+         
+        <span class="I_box" id="Q_36" onclick="func_toggle('Q_36')">  can   </span>                
+         
+        <span class="I_box" id="Q_37" onclick="func_toggle('Q_37')"> leave  </span>                
+         
+        <span class="I_box" id="Q_38" onclick="func_toggle('Q_38')">  you   </span>                
+         
+        <span class="I_box" id="Q_39" onclick="func_toggle('Q_39')">wondering</span>                
+         
+        <span class="I_box" id="Q_40" onclick="func_toggle('Q_40')">  what  </span>                
+         
+        <span class="I_box" id="Q_41" onclick="func_toggle('Q_41')">  you   </span>                
+         
+        <span class="I_box" id="Q_42" onclick="func_toggle('Q_42')"> should </span>                
+         
+        <span class="I_box" id="Q_43" onclick="func_toggle('Q_43')">   do   </span>                
+        . 
+        <span class="I_box" id="Q_44" onclick="func_toggle('Q_44')"> Should </span>                
+         
+        <span class="I_box" id="Q_45" onclick="func_toggle('Q_45')">  you   </span>                
+         
+        <span class="I_box" id="Q_46" onclick="func_toggle('Q_46')"> ignore </span>                
+         
+        <span class="I_box" id="Q_47" onclick="func_toggle('Q_47')">  them  </span>                
+        , 
+        <span class="I_box" id="Q_48" onclick="func_toggle('Q_48')">   be   </span>                
+         
+        <span class="I_box" id="Q_49" onclick="func_toggle('Q_49')"> extra  </span>                
+         
+        <span class="I_box" id="Q_50" onclick="func_toggle('Q_50')">  nice  </span>                
+         
+        <span class="I_box" id="Q_51" onclick="func_toggle('Q_51')">   to   </span>                
+         
+        <span class="I_box" id="Q_52" onclick="func_toggle('Q_52')">  them  </span>                
+        , 
+        <span class="I_box" id="Q_53" onclick="func_toggle('Q_53')">   or   </span>                
+         
+        <span class="I_box" id="Q_54" onclick="func_toggle('Q_54')"> stand  </span>                
+         
+        <span class="I_box" id="Q_55" onclick="func_toggle('Q_55')">   up   </span>                
+         
+        <span class="I_box" id="Q_56" onclick="func_toggle('Q_56')">   to   </span>                
+         
+        <span class="I_box" id="Q_57" onclick="func_toggle('Q_57')">  them  </span>                
+        ? 
+        <span class="I_box" id="Q_58" onclick="func_toggle('Q_58')">   If   </span>                
+         
+        <span class="I_box" id="Q_59" onclick="func_toggle('Q_59')">  you   </span>                
+         
+        <span class="I_box" id="Q_60" onclick="func_toggle('Q_60')">  have  </span>                
+         
+        <span class="I_box" id="Q_61" onclick="func_toggle('Q_61')">  ever  </span>                
+         
+        <span class="I_box" id="Q_62" onclick="func_toggle('Q_62')">  been  </span>                
+         
+        <span class="I_box" id="Q_63" onclick="func_toggle('Q_63')">confused</span>                
+         
+        <span class="I_box" id="Q_64" onclick="func_toggle('Q_64')"> about  </span>                
+         
+        <span class="I_box" id="Q_65" onclick="func_toggle('Q_65')">  what  </span>                
+         
+        <span class="I_box" id="Q_66" onclick="func_toggle('Q_66')">   to   </span>                
+         
+        <span class="I_box" id="Q_67" onclick="func_toggle('Q_67')">   do   </span>                
+        , 
+        <span class="I_box" id="Q_68" onclick="func_toggle('Q_68')">  you   </span>                
+         
+        <span class="I_box" id="Q_69" onclick="func_toggle('Q_69')">  are   </span>                
+         
+        <span class="I_box" id="Q_70" onclick="func_toggle('Q_70')">  not   </span>                
+         
+        <span class="I_box" id="Q_71" onclick="func_toggle('Q_71')"> alone  </span>                
+        . 
+        <span class="I_box" id="Q_72" onclick="func_toggle('Q_72')">Luckily </span>                
+         
+        <span class="I_box" id="Q_73" onclick="func_toggle('Q_73')">  for   </span>                
+         
+        <span class="I_box" id="Q_74" onclick="func_toggle('Q_74')">   us   </span>                
+        , 
+        <span class="I_box" id="Q_75" onclick="func_toggle('Q_75')">Benjamin</span>                
+         
+        <span class="I_box" id="Q_76" onclick="func_toggle('Q_76')">Franklin</span>                
+        , 
+        <span class="I_box" id="Q_77" onclick="func_toggle('Q_77')">  the   </span>                
+         
+        <span class="I_box" id="Q_78" onclick="func_toggle('Q_78')">American</span>                
+         
+        <span class="I_box" id="Q_79" onclick="func_toggle('Q_79')">politician</span>                
+         
+        <span class="I_box" id="Q_80" onclick="func_toggle('Q_80')">  and   </span>                
+         
+        <span class="I_box" id="Q_81" onclick="func_toggle('Q_81')">inventor</span>                
+        , 
+        <span class="I_box" id="Q_82" onclick="func_toggle('Q_82')">  came  </span>                
+         
+        <span class="I_box" id="Q_83" onclick="func_toggle('Q_83')">   up   </span>                
+         
+        <span class="I_box" id="Q_84" onclick="func_toggle('Q_84')">  with  </span>                
+         
+        <span class="I_box" id="Q_85" onclick="func_toggle('Q_85')">   an   </span>                
+         
+        <span class="I_box" id="Q_86" onclick="func_toggle('Q_86')"> answer </span>                
+         
+        <span class="I_box" id="Q_87" onclick="func_toggle('Q_87')">  more  </span>                
+         
+        <span class="I_box" id="Q_88" onclick="func_toggle('Q_88')">  than  </span>                
+         
+        <span class="I_box" id="Q_89" onclick="func_toggle('Q_89')">  200   </span>                
+         
+        <span class="I_box" id="Q_90" onclick="func_toggle('Q_90')"> years  </span>                
+         
+        <span class="I_box" id="Q_91" onclick="func_toggle('Q_91')">  ago   </span>                
+        .</p>
+<p>
+</p>
+<p>
+
+        <span class="I_box" id="Q_92" onclick="func_toggle('Q_92')">Benjamin</span>                
+         
+        <span class="I_box" id="Q_93" onclick="func_toggle('Q_93')">Franklin</span>                
+         
+        <span class="I_box" id="Q_94" onclick="func_toggle('Q_94')">  was   </span>                
+         
+        <span class="I_box" id="Q_95" onclick="func_toggle('Q_95')">   a    </span>                
+         
+        <span class="I_box" id="Q_96" onclick="func_toggle('Q_96')">  very  </span>                
+         
+        <span class="I_box" id="Q_97" onclick="func_toggle('Q_97')"> smart  </span>                
+         
+        <span class="I_box" id="Q_98" onclick="func_toggle('Q_98')">  man   </span>                
+        , 
+        <span class="I_box" id="Q_99" onclick="func_toggle('Q_99')">  not   </span>                
+         
+        <span class="I_box" id="Q_100" onclick="func_toggle('Q_100')">  just  </span>                
+         
+        <span class="I_box" id="Q_101" onclick="func_toggle('Q_101')">   in   </span>                
+         
+        <span class="I_box" id="Q_102" onclick="func_toggle('Q_102')">politics</span>                
+         
+        <span class="I_box" id="Q_103" onclick="func_toggle('Q_103')">  and   </span>                
+         
+        <span class="I_box" id="Q_104" onclick="func_toggle('Q_104')">science </span>                
+        , 
+        <span class="I_box" id="Q_105" onclick="func_toggle('Q_105')">  but   </span>                
+         
+        <span class="I_box" id="Q_106" onclick="func_toggle('Q_106')">  also  </span>                
+         
+        <span class="I_box" id="Q_107" onclick="func_toggle('Q_107')">   in   </span>                
+         
+        <span class="I_box" id="Q_108" onclick="func_toggle('Q_108')">  his   </span>                
+         
+        <span class="I_box" id="Q_109" onclick="func_toggle('Q_109')">ability </span>                
+         
+        <span class="I_box" id="Q_110" onclick="func_toggle('Q_110')">   to   </span>                
+         
+        <span class="I_box" id="Q_111" onclick="func_toggle('Q_111')">  deal  </span>                
+         
+        <span class="I_box" id="Q_112" onclick="func_toggle('Q_112')">  with  </span>                
+         
+        <span class="I_box" id="Q_113" onclick="func_toggle('Q_113')"> people </span>                
+        . 
+        <span class="I_box" id="Q_114" onclick="func_toggle('Q_114')">  Once  </span>                
+        , 
+        <span class="I_box" id="Q_115" onclick="func_toggle('Q_115')">  when  </span>                
+         
+        <span class="I_box" id="Q_116" onclick="func_toggle('Q_116')">Franklin</span>                
+         
+        <span class="I_box" id="Q_117" onclick="func_toggle('Q_117')">  was   </span>                
+         
+        <span class="I_box" id="Q_118" onclick="func_toggle('Q_118')">serving </span>                
+         
+        <span class="I_box" id="Q_119" onclick="func_toggle('Q_119')">   as   </span>                
+         
+        <span class="I_box" id="Q_120" onclick="func_toggle('Q_120')">   a    </span>                
+         
+        <span class="I_box" id="Q_121" onclick="func_toggle('Q_121')">representative</span>                
+         
+        <span class="I_box" id="Q_122" onclick="func_toggle('Q_122')">  for   </span>                
+         
+        <span class="I_box" id="Q_123" onclick="func_toggle('Q_123')">  the   </span>                
+         
+        <span class="I_box" id="Q_124" onclick="func_toggle('Q_124')"> people </span>                
+         
+        <span class="I_box" id="Q_125" onclick="func_toggle('Q_125')">   of   </span>                
+         
+        <span class="I_box" id="Q_126" onclick="func_toggle('Q_126')">  the   </span>                
+         
+        <span class="I_box" id="Q_127" onclick="func_toggle('Q_127')"> state  </span>                
+         
+        <span class="I_box" id="Q_128" onclick="func_toggle('Q_128')">   of   </span>                
+         
+        <span class="I_box" id="Q_129" onclick="func_toggle('Q_129')">Pennsylvania</span>                
+        , 
+        <span class="I_box" id="Q_130" onclick="func_toggle('Q_130')">   a    </span>                
+         
+        <span class="I_box" id="Q_131" onclick="func_toggle('Q_131')">powerful</span>                
+         
+        <span class="I_box" id="Q_132" onclick="func_toggle('Q_132')">opponent</span>                
+         
+        <span class="I_box" id="Q_133" onclick="func_toggle('Q_133')">  made  </span>                
+         
+        <span class="I_box" id="Q_134" onclick="func_toggle('Q_134')">   a    </span>                
+         
+        <span class="I_box" id="Q_135" onclick="func_toggle('Q_135')">  long  </span>                
+         
+        <span class="I_box" id="Q_136" onclick="func_toggle('Q_136')"> speech </span>                
+         
+        <span class="I_box" id="Q_137" onclick="func_toggle('Q_137')">criticizing</span>                
+         
+        <span class="I_box" id="Q_138" onclick="func_toggle('Q_138')">  him   </span>                
+        . 
+        <span class="I_box" id="Q_139" onclick="func_toggle('Q_139')">  This  </span>                
+         
+        <span class="I_box" id="Q_140" onclick="func_toggle('Q_140')"> speech </span>                
+         
+        <span class="I_box" id="Q_141" onclick="func_toggle('Q_141')">  was   </span>                
+         
+        <span class="I_box" id="Q_142" onclick="func_toggle('Q_142')">   so   </span>                
+         
+        <span class="I_box" id="Q_143" onclick="func_toggle('Q_143')">powerful</span>                
+         
+        <span class="I_box" id="Q_144" onclick="func_toggle('Q_144')">  that  </span>                
+         
+        <span class="I_box" id="Q_145" onclick="func_toggle('Q_145')">   it   </span>                
+         
+        <span class="I_box" id="Q_146" onclick="func_toggle('Q_146')">threatened</span>                
+         
+        <span class="I_box" id="Q_147" onclick="func_toggle('Q_147')">Franklin</span>                
+        ’
+        <span class="I_box" id="Q_148" onclick="func_toggle('Q_148')">   s    </span>                
+         
+        <span class="I_box" id="Q_149" onclick="func_toggle('Q_149')">political</span>                
+         
+        <span class="I_box" id="Q_150" onclick="func_toggle('Q_150')"> career </span>                
+        . 
+        <span class="I_box" id="Q_151" onclick="func_toggle('Q_151')">Franklin</span>                
+         
+        <span class="I_box" id="Q_152" onclick="func_toggle('Q_152')">decided </span>                
+         
+        <span class="I_box" id="Q_153" onclick="func_toggle('Q_153')">   to   </span>                
+         
+        <span class="I_box" id="Q_154" onclick="func_toggle('Q_154')">  try   </span>                
+         
+        <span class="I_box" id="Q_155" onclick="func_toggle('Q_155')">   to   </span>                
+         
+        <span class="I_box" id="Q_156" onclick="func_toggle('Q_156')"> change </span>                
+         
+        <span class="I_box" id="Q_157" onclick="func_toggle('Q_157')">  his   </span>                
+         
+        <span class="I_box" id="Q_158" onclick="func_toggle('Q_158')"> enemy  </span>                
+        ’
+        <span class="I_box" id="Q_159" onclick="func_toggle('Q_159')">   s    </span>                
+         
+        <span class="I_box" id="Q_160" onclick="func_toggle('Q_160')">opinion </span>                
+         
+        <span class="I_box" id="Q_161" onclick="func_toggle('Q_161')">   of   </span>                
+         
+        <span class="I_box" id="Q_162" onclick="func_toggle('Q_162')">  him   </span>                
+        . 
+        <span class="I_box" id="Q_163" onclick="func_toggle('Q_163')">   To   </span>                
+         
+        <span class="I_box" id="Q_164" onclick="func_toggle('Q_164')">   do   </span>                
+         
+        <span class="I_box" id="Q_165" onclick="func_toggle('Q_165')">  this  </span>                
+        , 
+        <span class="I_box" id="Q_166" onclick="func_toggle('Q_166')">   he   </span>                
+         
+        <span class="I_box" id="Q_167" onclick="func_toggle('Q_167')">  sent  </span>                
+         
+        <span class="I_box" id="Q_168" onclick="func_toggle('Q_168')">   a    </span>                
+         
+        <span class="I_box" id="Q_169" onclick="func_toggle('Q_169')"> letter </span>                
+         
+        <span class="I_box" id="Q_170" onclick="func_toggle('Q_170')">   to   </span>                
+         
+        <span class="I_box" id="Q_171" onclick="func_toggle('Q_171')">  the   </span>                
+         
+        <span class="I_box" id="Q_172" onclick="func_toggle('Q_172')">  man   </span>                
+         
+        <span class="I_box" id="Q_173" onclick="func_toggle('Q_173')"> asking </span>                
+         
+        <span class="I_box" id="Q_174" onclick="func_toggle('Q_174')">  for   </span>                
+         
+        <span class="I_box" id="Q_175" onclick="func_toggle('Q_175')">   a    </span>                
+         
+        <span class="I_box" id="Q_176" onclick="func_toggle('Q_176')"> favor  </span>                
+        . 
+        <span class="I_box" id="Q_177" onclick="func_toggle('Q_177')">   He   </span>                
+         
+        <span class="I_box" id="Q_178" onclick="func_toggle('Q_178')"> asked  </span>                
+         
+        <span class="I_box" id="Q_179" onclick="func_toggle('Q_179')">  the   </span>                
+         
+        <span class="I_box" id="Q_180" onclick="func_toggle('Q_180')">  man   </span>                
+         
+        <span class="I_box" id="Q_181" onclick="func_toggle('Q_181')">   to   </span>                
+         
+        <span class="I_box" id="Q_182" onclick="func_toggle('Q_182')">  lend  </span>                
+         
+        <span class="I_box" id="Q_183" onclick="func_toggle('Q_183')">  him   </span>                
+         
+        <span class="I_box" id="Q_184" onclick="func_toggle('Q_184')">   a    </span>                
+         
+        <span class="I_box" id="Q_185" onclick="func_toggle('Q_185')">  very  </span>                
+         
+        <span class="I_box" id="Q_186" onclick="func_toggle('Q_186')">  rare  </span>                
+         
+        <span class="I_box" id="Q_187" onclick="func_toggle('Q_187')">  and   </span>                
+         
+        <span class="I_box" id="Q_188" onclick="func_toggle('Q_188')">valuable</span>                
+         
+        <span class="I_box" id="Q_189" onclick="func_toggle('Q_189')">  book  </span>                
+        , 
+        <span class="I_box" id="Q_190" onclick="func_toggle('Q_190')">  one   </span>                
+         
+        <span class="I_box" id="Q_191" onclick="func_toggle('Q_191')">  that  </span>                
+         
+        <span class="I_box" id="Q_192" onclick="func_toggle('Q_192')">   he   </span>                
+         
+        <span class="I_box" id="Q_193" onclick="func_toggle('Q_193')">  knew  </span>                
+         
+        <span class="I_box" id="Q_194" onclick="func_toggle('Q_194')">  the   </span>                
+         
+        <span class="I_box" id="Q_195" onclick="func_toggle('Q_195')">  man   </span>                
+         
+        <span class="I_box" id="Q_196" onclick="func_toggle('Q_196')">  had   </span>                
+         
+        <span class="I_box" id="Q_197" onclick="func_toggle('Q_197')">   in   </span>                
+         
+        <span class="I_box" id="Q_198" onclick="func_toggle('Q_198')">  his   </span>                
+         
+        <span class="I_box" id="Q_199" onclick="func_toggle('Q_199')">personal</span>                
+         
+        <span class="I_box" id="Q_200" onclick="func_toggle('Q_200')">library </span>                
+        . 
+        <span class="I_box" id="Q_201" onclick="func_toggle('Q_201')">  The   </span>                
+         
+        <span class="I_box" id="Q_202" onclick="func_toggle('Q_202')">  man   </span>                
+        , 
+        <span class="I_box" id="Q_203" onclick="func_toggle('Q_203')">Franklin</span>                
+        ’
+        <span class="I_box" id="Q_204" onclick="func_toggle('Q_204')">   s    </span>                
+         
+        <span class="I_box" id="Q_205" onclick="func_toggle('Q_205')"> enemy  </span>                
+        , 
+        <span class="I_box" id="Q_206" onclick="func_toggle('Q_206')">immediately</span>                
+         
+        <span class="I_box" id="Q_207" onclick="func_toggle('Q_207')">  sent  </span>                
+         
+        <span class="I_box" id="Q_208" onclick="func_toggle('Q_208')">  him   </span>                
+         
+        <span class="I_box" id="Q_209" onclick="func_toggle('Q_209')">  the   </span>                
+         
+        <span class="I_box" id="Q_210" onclick="func_toggle('Q_210')">  book  </span>                
+        . 
+        <span class="I_box" id="Q_211" onclick="func_toggle('Q_211')">Franklin</span>                
+         
+        <span class="I_box" id="Q_212" onclick="func_toggle('Q_212')">  read  </span>                
+         
+        <span class="I_box" id="Q_213" onclick="func_toggle('Q_213')">  the   </span>                
+         
+        <span class="I_box" id="Q_214" onclick="func_toggle('Q_214')">  book  </span>                
+         
+        <span class="I_box" id="Q_215" onclick="func_toggle('Q_215')">  and   </span>                
+         
+        <span class="I_box" id="Q_216" onclick="func_toggle('Q_216')">returned</span>                
+         
+        <span class="I_box" id="Q_217" onclick="func_toggle('Q_217')">   it   </span>                
+         
+        <span class="I_box" id="Q_218" onclick="func_toggle('Q_218')">  with  </span>                
+         
+        <span class="I_box" id="Q_219" onclick="func_toggle('Q_219')">   a    </span>                
+         
+        <span class="I_box" id="Q_220" onclick="func_toggle('Q_220')">  note  </span>                
+         
+        <span class="I_box" id="Q_221" onclick="func_toggle('Q_221')">   of   </span>                
+         
+        <span class="I_box" id="Q_222" onclick="func_toggle('Q_222')"> thanks </span>                
+        .</p>
+<p>
+</p>
+<p>
+
+        <span class="I_box" id="Q_223" onclick="func_toggle('Q_223')">  The   </span>                
+         
+        <span class="I_box" id="Q_224" onclick="func_toggle('Q_224')">  next  </span>                
+         
+        <span class="I_box" id="Q_225" onclick="func_toggle('Q_225')">  time  </span>                
+         
+        <span class="I_box" id="Q_226" onclick="func_toggle('Q_226')">Franklin</span>                
+         
+        <span class="I_box" id="Q_227" onclick="func_toggle('Q_227')">  met   </span>                
+         
+        <span class="I_box" id="Q_228" onclick="func_toggle('Q_228')">  his   </span>                
+         
+        <span class="I_box" id="Q_229" onclick="func_toggle('Q_229')"> enemy  </span>                
+        , 
+        <span class="I_box" id="Q_230" onclick="func_toggle('Q_230')">  the   </span>                
+         
+        <span class="I_box" id="Q_231" onclick="func_toggle('Q_231')">  man   </span>                
+         
+        <span class="I_box" id="Q_232" onclick="func_toggle('Q_232')">  was   </span>                
+         
+        <span class="I_box" id="Q_233" onclick="func_toggle('Q_233')">  much  </span>                
+         
+        <span class="I_box" id="Q_234" onclick="func_toggle('Q_234')"> nicer  </span>                
+         
+        <span class="I_box" id="Q_235" onclick="func_toggle('Q_235')">   to   </span>                
+         
+        <span class="I_box" id="Q_236" onclick="func_toggle('Q_236')">  him   </span>                
+        . 
+        <span class="I_box" id="Q_237" onclick="func_toggle('Q_237')">  They  </span>                
+         
+        <span class="I_box" id="Q_238" onclick="func_toggle('Q_238')">eventually</span>                
+         
+        <span class="I_box" id="Q_239" onclick="func_toggle('Q_239')"> became </span>                
+         
+        <span class="I_box" id="Q_240" onclick="func_toggle('Q_240')">friends </span>                
+         
+        <span class="I_box" id="Q_241" onclick="func_toggle('Q_241')">  and   </span>                
+         
+        <span class="I_box" id="Q_242" onclick="func_toggle('Q_242')">remained</span>                
+         
+        <span class="I_box" id="Q_243" onclick="func_toggle('Q_243')">   so   </span>                
+         
+        <span class="I_box" id="Q_244" onclick="func_toggle('Q_244')">  for   </span>                
+         
+        <span class="I_box" id="Q_245" onclick="func_toggle('Q_245')">  the   </span>                
+         
+        <span class="I_box" id="Q_246" onclick="func_toggle('Q_246')">  rest  </span>                
+         
+        <span class="I_box" id="Q_247" onclick="func_toggle('Q_247')">   of   </span>                
+         
+        <span class="I_box" id="Q_248" onclick="func_toggle('Q_248')"> their  </span>                
+         
+        <span class="I_box" id="Q_249" onclick="func_toggle('Q_249')"> lives  </span>                
+        . 
+        <span class="I_box" id="Q_250" onclick="func_toggle('Q_250')">   In   </span>                
+         
+        <span class="I_box" id="Q_251" onclick="func_toggle('Q_251')">  his   </span>                
+         
+        <span class="I_box" id="Q_252" onclick="func_toggle('Q_252')">autobiography</span>                
+        , 
+        <span class="I_box" id="Q_253" onclick="func_toggle('Q_253')">Franklin</span>                
+         
+        <span class="I_box" id="Q_254" onclick="func_toggle('Q_254')">explained</span>                
+         
+        <span class="I_box" id="Q_255" onclick="func_toggle('Q_255')">  what  </span>                
+         
+        <span class="I_box" id="Q_256" onclick="func_toggle('Q_256')">happened</span>                
+        . 
+        <span class="I_box" id="Q_257" onclick="func_toggle('Q_257')">Franklin</span>                
+         
+        <span class="I_box" id="Q_258" onclick="func_toggle('Q_258')"> wrote  </span>                
+        , “
+        <span class="I_box" id="Q_259" onclick="func_toggle('Q_259')">   He   </span>                
+         
+        <span class="I_box" id="Q_260" onclick="func_toggle('Q_260')">  that  </span>                
+         
+        <span class="I_box" id="Q_261" onclick="func_toggle('Q_261')">  has   </span>                
+         
+        <span class="I_box" id="Q_262" onclick="func_toggle('Q_262')">  once  </span>                
+         
+        <span class="I_box" id="Q_263" onclick="func_toggle('Q_263')">  done  </span>                
+         
+        <span class="I_box" id="Q_264" onclick="func_toggle('Q_264')">  you   </span>                
+         
+        <span class="I_box" id="Q_265" onclick="func_toggle('Q_265')">   a    </span>                
+         
+        <span class="I_box" id="Q_266" onclick="func_toggle('Q_266')">kindness</span>                
+         
+        <span class="I_box" id="Q_267" onclick="func_toggle('Q_267')">  will  </span>                
+         
+        <span class="I_box" id="Q_268" onclick="func_toggle('Q_268')">   be   </span>                
+         
+        <span class="I_box" id="Q_269" onclick="func_toggle('Q_269')">  more  </span>                
+         
+        <span class="I_box" id="Q_270" onclick="func_toggle('Q_270')"> ready  </span>                
+         
+        <span class="I_box" id="Q_271" onclick="func_toggle('Q_271')">   to   </span>                
+         
+        <span class="I_box" id="Q_272" onclick="func_toggle('Q_272')">   do   </span>                
+         
+        <span class="I_box" id="Q_273" onclick="func_toggle('Q_273')">  you   </span>                
+         
+        <span class="I_box" id="Q_274" onclick="func_toggle('Q_274')">another </span>                
+        .” 
+        <span class="I_box" id="Q_275" onclick="func_toggle('Q_275')">   By   </span>                
+         
+        <span class="I_box" id="Q_276" onclick="func_toggle('Q_276')"> asking </span>                
+         
+        <span class="I_box" id="Q_277" onclick="func_toggle('Q_277')">   a    </span>                
+         
+        <span class="I_box" id="Q_278" onclick="func_toggle('Q_278')"> small  </span>                
+         
+        <span class="I_box" id="Q_279" onclick="func_toggle('Q_279')"> favor  </span>                
+         
+        <span class="I_box" id="Q_280" onclick="func_toggle('Q_280')">   of   </span>                
+         
+        <span class="I_box" id="Q_281" onclick="func_toggle('Q_281')">  his   </span>                
+         
+        <span class="I_box" id="Q_282" onclick="func_toggle('Q_282')"> enemy  </span>                
+        , 
+        <span class="I_box" id="Q_283" onclick="func_toggle('Q_283')">Franklin</span>                
+         
+        <span class="I_box" id="Q_284" onclick="func_toggle('Q_284')">  gave  </span>                
+         
+        <span class="I_box" id="Q_285" onclick="func_toggle('Q_285')">  the   </span>                
+         
+        <span class="I_box" id="Q_286" onclick="func_toggle('Q_286')">  man   </span>                
+         
+        <span class="I_box" id="Q_287" onclick="func_toggle('Q_287')">   a    </span>                
+         
+        <span class="I_box" id="Q_288" onclick="func_toggle('Q_288')"> chance </span>                
+         
+        <span class="I_box" id="Q_289" onclick="func_toggle('Q_289')">   to   </span>                
+         
+        <span class="I_box" id="Q_290" onclick="func_toggle('Q_290')">   do   </span>                
+         
+        <span class="I_box" id="Q_291" onclick="func_toggle('Q_291')">  him   </span>                
+         
+        <span class="I_box" id="Q_292" onclick="func_toggle('Q_292')">   a    </span>                
+         
+        <span class="I_box" id="Q_293" onclick="func_toggle('Q_293')">kindness</span>                
+        . 
+        <span class="I_box" id="Q_294" onclick="func_toggle('Q_294')">  This  </span>                
+         
+        <span class="I_box" id="Q_295" onclick="func_toggle('Q_295')"> turned </span>                
+         
+        <span class="I_box" id="Q_296" onclick="func_toggle('Q_296')">  his   </span>                
+         
+        <span class="I_box" id="Q_297" onclick="func_toggle('Q_297')"> enemy  </span>                
+         
+        <span class="I_box" id="Q_298" onclick="func_toggle('Q_298')">  into  </span>                
+         
+        <span class="I_box" id="Q_299" onclick="func_toggle('Q_299')">   a    </span>                
+         
+        <span class="I_box" id="Q_300" onclick="func_toggle('Q_300')"> friend </span>                
+        . 
+        <span class="I_box" id="Q_301" onclick="func_toggle('Q_301')"> Today  </span>                
+         
+        <span class="I_box" id="Q_302" onclick="func_toggle('Q_302')">  this  </span>                
+         
+        <span class="I_box" id="Q_303" onclick="func_toggle('Q_303')">phenomenon</span>                
+         
+        <span class="I_box" id="Q_304" onclick="func_toggle('Q_304')">   is   </span>                
+         
+        <span class="I_box" id="Q_305" onclick="func_toggle('Q_305')"> known  </span>                
+         
+        <span class="I_box" id="Q_306" onclick="func_toggle('Q_306')">   as   </span>                
+         
+        <span class="I_box" id="Q_307" onclick="func_toggle('Q_307')">  the   </span>                
+         
+        <span class="I_box" id="Q_308" onclick="func_toggle('Q_308')">Benjamin</span>                
+         
+        <span class="I_box" id="Q_309" onclick="func_toggle('Q_309')">Franklin</span>                
+         
+        <span class="I_box" id="Q_310" onclick="func_toggle('Q_310')"> effect </span>                
+        .</p>
+<p>
+</p>
+<p>
+
+        <span class="I_box" id="Q_311" onclick="func_toggle('Q_311')">   It   </span>                
+         
+        <span class="I_box" id="Q_312" onclick="func_toggle('Q_312')">   is   </span>                
+         
+        <span class="I_box" id="Q_313" onclick="func_toggle('Q_313')">commonly</span>                
+         
+        <span class="I_box" id="Q_314" onclick="func_toggle('Q_314')">thought </span>                
+         
+        <span class="I_box" id="Q_315" onclick="func_toggle('Q_315')">  that  </span>                
+         
+        <span class="I_box" id="Q_316" onclick="func_toggle('Q_316')">   if   </span>                
+         
+        <span class="I_box" id="Q_317" onclick="func_toggle('Q_317')">  you   </span>                
+         
+        <span class="I_box" id="Q_318" onclick="func_toggle('Q_318')">  want  </span>                
+         
+        <span class="I_box" id="Q_319" onclick="func_toggle('Q_319')"> people </span>                
+         
+        <span class="I_box" id="Q_320" onclick="func_toggle('Q_320')">  who   </span>                
+         
+        <span class="I_box" id="Q_321" onclick="func_toggle('Q_321')">   do   </span>                
+         
+        <span class="I_box" id="Q_322" onclick="func_toggle('Q_322')">  not   </span>                
+         
+        <span class="I_box" id="Q_323" onclick="func_toggle('Q_323')">  like  </span>                
+         
+        <span class="I_box" id="Q_324" onclick="func_toggle('Q_324')">  you   </span>                
+         
+        <span class="I_box" id="Q_325" onclick="func_toggle('Q_325')">   to   </span>                
+         
+        <span class="I_box" id="Q_326" onclick="func_toggle('Q_326')">  like  </span>                
+         
+        <span class="I_box" id="Q_327" onclick="func_toggle('Q_327')">  you   </span>                
+        , 
+        <span class="I_box" id="Q_328" onclick="func_toggle('Q_328')">  you   </span>                
+         
+        <span class="I_box" id="Q_329" onclick="func_toggle('Q_329')"> should </span>                
+         
+        <span class="I_box" id="Q_330" onclick="func_toggle('Q_330')">   do   </span>                
+         
+        <span class="I_box" id="Q_331" onclick="func_toggle('Q_331')"> favors </span>                
+         
+        <span class="I_box" id="Q_332" onclick="func_toggle('Q_332')">  for   </span>                
+         
+        <span class="I_box" id="Q_333" onclick="func_toggle('Q_333')">  them  </span>                
+        . 
+        <span class="I_box" id="Q_334" onclick="func_toggle('Q_334')">However </span>                
+        , 
+        <span class="I_box" id="Q_335" onclick="func_toggle('Q_335')">   if   </span>                
+         
+        <span class="I_box" id="Q_336" onclick="func_toggle('Q_336')">  you   </span>                
+         
+        <span class="I_box" id="Q_337" onclick="func_toggle('Q_337')">  want  </span>                
+         
+        <span class="I_box" id="Q_338" onclick="func_toggle('Q_338')">   to   </span>                
+         
+        <span class="I_box" id="Q_339" onclick="func_toggle('Q_339')">  try   </span>                
+         
+        <span class="I_box" id="Q_340" onclick="func_toggle('Q_340')">   to   </span>                
+         
+        <span class="I_box" id="Q_341" onclick="func_toggle('Q_341')"> create </span>                
+         
+        <span class="I_box" id="Q_342" onclick="func_toggle('Q_342')">   a    </span>                
+         
+        <span class="I_box" id="Q_343" onclick="func_toggle('Q_343')">connection</span>                
+         
+        <span class="I_box" id="Q_344" onclick="func_toggle('Q_344')">  with  </span>                
+         
+        <span class="I_box" id="Q_345" onclick="func_toggle('Q_345')">someone </span>                
+         
+        <span class="I_box" id="Q_346" onclick="func_toggle('Q_346')">  who   </span>                
+         
+        <span class="I_box" id="Q_347" onclick="func_toggle('Q_347')">  does  </span>                
+         
+        <span class="I_box" id="Q_348" onclick="func_toggle('Q_348')">  not   </span>                
+         
+        <span class="I_box" id="Q_349" onclick="func_toggle('Q_349')">  like  </span>                
+         
+        <span class="I_box" id="Q_350" onclick="func_toggle('Q_350')">  you   </span>                
+        , 
+        <span class="I_box" id="Q_351" onclick="func_toggle('Q_351')"> asking </span>                
+         
+        <span class="I_box" id="Q_352" onclick="func_toggle('Q_352')">  that  </span>                
+         
+        <span class="I_box" id="Q_353" onclick="func_toggle('Q_353')"> person </span>                
+         
+        <span class="I_box" id="Q_354" onclick="func_toggle('Q_354')">   to   </span>                
+         
+        <span class="I_box" id="Q_355" onclick="func_toggle('Q_355')">   do   </span>                
+         
+        <span class="I_box" id="Q_356" onclick="func_toggle('Q_356')">  you   </span>                
+         
+        <span class="I_box" id="Q_357" onclick="func_toggle('Q_357')">   a    </span>                
+         
+        <span class="I_box" id="Q_358" onclick="func_toggle('Q_358')"> favor  </span>                
+         
+        <span class="I_box" id="Q_359" onclick="func_toggle('Q_359')">   is   </span>                
+         
+        <span class="I_box" id="Q_360" onclick="func_toggle('Q_360')">  more  </span>                
+         
+        <span class="I_box" id="Q_361" onclick="func_toggle('Q_361')">effective</span>                
+        . 
+        <span class="I_box" id="Q_362" onclick="func_toggle('Q_362')">   To   </span>                
+         
+        <span class="I_box" id="Q_363" onclick="func_toggle('Q_363')">  test  </span>                
+         
+        <span class="I_box" id="Q_364" onclick="func_toggle('Q_364')">  this  </span>                
+         
+        <span class="I_box" id="Q_365" onclick="func_toggle('Q_365')">phenomenon</span>                
+        , 
+        <span class="I_box" id="Q_366" onclick="func_toggle('Q_366')">   a    </span>                
+         
+        <span class="I_box" id="Q_367" onclick="func_toggle('Q_367')">psychologist</span>                
+         
+        <span class="I_box" id="Q_368" onclick="func_toggle('Q_368')">performed</span>                
+         
+        <span class="I_box" id="Q_369" onclick="func_toggle('Q_369')">   an   </span>                
+         
+        <span class="I_box" id="Q_370" onclick="func_toggle('Q_370')">experiment</span>                
+         
+        <span class="I_box" id="Q_371" onclick="func_toggle('Q_371')">  and   </span>                
+         
+        <span class="I_box" id="Q_372" onclick="func_toggle('Q_372')">  came  </span>                
+         
+        <span class="I_box" id="Q_373" onclick="func_toggle('Q_373')">   to   </span>                
+         
+        <span class="I_box" id="Q_374" onclick="func_toggle('Q_374')">  the   </span>                
+         
+        <span class="I_box" id="Q_375" onclick="func_toggle('Q_375')">  same  </span>                
+         
+        <span class="I_box" id="Q_376" onclick="func_toggle('Q_376')">conclusion</span>                
+        .</p>
+<p>
+</p>
+<p>
+
+        <span class="I_box" id="Q_377" onclick="func_toggle('Q_377')"> About  </span>                
+         
+        <span class="I_box" id="Q_378" onclick="func_toggle('Q_378')">   80   </span>                
+         
+        <span class="I_box" id="Q_379" onclick="func_toggle('Q_379')">students</span>                
+         
+        <span class="I_box" id="Q_380" onclick="func_toggle('Q_380')">  were  </span>                
+         
+        <span class="I_box" id="Q_381" onclick="func_toggle('Q_381')">invited </span>                
+         
+        <span class="I_box" id="Q_382" onclick="func_toggle('Q_382')">   to   </span>                
+         
+        <span class="I_box" id="Q_383" onclick="func_toggle('Q_383')">participate</span>                
+         
+        <span class="I_box" id="Q_384" onclick="func_toggle('Q_384')">   in   </span>                
+         
+        <span class="I_box" id="Q_385" onclick="func_toggle('Q_385')">   an   </span>                
+         
+        <span class="I_box" id="Q_386" onclick="func_toggle('Q_386')">experiment</span>                
+         
+        <span class="I_box" id="Q_387" onclick="func_toggle('Q_387')">  and   </span>                
+         
+        <span class="I_box" id="Q_388" onclick="func_toggle('Q_388')">  were  </span>                
+         
+        <span class="I_box" id="Q_389" onclick="func_toggle('Q_389')">  told  </span>                
+         
+        <span class="I_box" id="Q_390" onclick="func_toggle('Q_390')">  they  </span>                
+         
+        <span class="I_box" id="Q_391" onclick="func_toggle('Q_391')"> would  </span>                
+         
+        <span class="I_box" id="Q_392" onclick="func_toggle('Q_392')">   be   </span>                
+         
+        <span class="I_box" id="Q_393" onclick="func_toggle('Q_393')"> given  </span>                
+         
+        <span class="I_box" id="Q_394" onclick="func_toggle('Q_394')">  some  </span>                
+         
+        <span class="I_box" id="Q_395" onclick="func_toggle('Q_395')"> money  </span>                
+         
+        <span class="I_box" id="Q_396" onclick="func_toggle('Q_396')"> after  </span>                
+         
+        <span class="I_box" id="Q_397" onclick="func_toggle('Q_397')">   a    </span>                
+         
+        <span class="I_box" id="Q_398" onclick="func_toggle('Q_398')"> series </span>                
+         
+        <span class="I_box" id="Q_399" onclick="func_toggle('Q_399')">   of   </span>                
+         
+        <span class="I_box" id="Q_400" onclick="func_toggle('Q_400')"> tests  </span>                
+        . 
+        <span class="I_box" id="Q_401" onclick="func_toggle('Q_401')">   A    </span>                
+         
+        <span class="I_box" id="Q_402" onclick="func_toggle('Q_402')">researcher</span>                
+         
+        <span class="I_box" id="Q_403" onclick="func_toggle('Q_403')">  was   </span>                
+         
+        <span class="I_box" id="Q_404" onclick="func_toggle('Q_404')"> hired  </span>                
+         
+        <span class="I_box" id="Q_405" onclick="func_toggle('Q_405')">  and   </span>                
+         
+        <span class="I_box" id="Q_406" onclick="func_toggle('Q_406')">  made  </span>                
+         
+        <span class="I_box" id="Q_407" onclick="func_toggle('Q_407')">  the   </span>                
+         
+        <span class="I_box" id="Q_408" onclick="func_toggle('Q_408')">students</span>                
+         
+        <span class="I_box" id="Q_409" onclick="func_toggle('Q_409')">dislike </span>                
+         
+        <span class="I_box" id="Q_410" onclick="func_toggle('Q_410')">  him   </span>                
+         
+        <span class="I_box" id="Q_411" onclick="func_toggle('Q_411')">   by   </span>                
+         
+        <span class="I_box" id="Q_412" onclick="func_toggle('Q_412')"> being  </span>                
+         
+        <span class="I_box" id="Q_413" onclick="func_toggle('Q_413')">  rude  </span>                
+         
+        <span class="I_box" id="Q_414" onclick="func_toggle('Q_414')">   to   </span>                
+         
+        <span class="I_box" id="Q_415" onclick="func_toggle('Q_415')">  them  </span>                
+        . 
+        <span class="I_box" id="Q_416" onclick="func_toggle('Q_416')">  The   </span>                
+         
+        <span class="I_box" id="Q_417" onclick="func_toggle('Q_417')">students</span>                
+         
+        <span class="I_box" id="Q_418" onclick="func_toggle('Q_418')">  took  </span>                
+         
+        <span class="I_box" id="Q_419" onclick="func_toggle('Q_419')">  the   </span>                
+         
+        <span class="I_box" id="Q_420" onclick="func_toggle('Q_420')"> tests  </span>                
+         
+        <span class="I_box" id="Q_421" onclick="func_toggle('Q_421')">  and   </span>                
+         
+        <span class="I_box" id="Q_422" onclick="func_toggle('Q_422')">  were  </span>                
+         
+        <span class="I_box" id="Q_423" onclick="func_toggle('Q_423')">  all   </span>                
+         
+        <span class="I_box" id="Q_424" onclick="func_toggle('Q_424')">awarded </span>                
+         
+        <span class="I_box" id="Q_425" onclick="func_toggle('Q_425')">  the   </span>                
+         
+        <span class="I_box" id="Q_426" onclick="func_toggle('Q_426')">promised</span>                
+         
+        <span class="I_box" id="Q_427" onclick="func_toggle('Q_427')"> money  </span>                
+        . 
+        <span class="I_box" id="Q_428" onclick="func_toggle('Q_428')">  They  </span>                
+         
+        <span class="I_box" id="Q_429" onclick="func_toggle('Q_429')">  were  </span>                
+         
+        <span class="I_box" id="Q_430" onclick="func_toggle('Q_430')">  then  </span>                
+         
+        <span class="I_box" id="Q_431" onclick="func_toggle('Q_431')">divided </span>                
+         
+        <span class="I_box" id="Q_432" onclick="func_toggle('Q_432')">  into  </span>                
+         
+        <span class="I_box" id="Q_433" onclick="func_toggle('Q_433')"> three  </span>                
+         
+        <span class="I_box" id="Q_434" onclick="func_toggle('Q_434')"> groups </span>                
+        . 
+        <span class="I_box" id="Q_435" onclick="func_toggle('Q_435')"> Group  </span>                
+         
+        <span class="I_box" id="Q_436" onclick="func_toggle('Q_436')">   1    </span>                
+         
+        <span class="I_box" id="Q_437" onclick="func_toggle('Q_437')">  was   </span>                
+         
+        <span class="I_box" id="Q_438" onclick="func_toggle('Q_438')"> asked  </span>                
+         
+        <span class="I_box" id="Q_439" onclick="func_toggle('Q_439')">   by   </span>                
+         
+        <span class="I_box" id="Q_440" onclick="func_toggle('Q_440')">  the   </span>                
+         
+        <span class="I_box" id="Q_441" onclick="func_toggle('Q_441')">researcher</span>                
+         
+        <span class="I_box" id="Q_442" onclick="func_toggle('Q_442')">   to   </span>                
+         
+        <span class="I_box" id="Q_443" onclick="func_toggle('Q_443')"> return </span>                
+         
+        <span class="I_box" id="Q_444" onclick="func_toggle('Q_444')">  some  </span>                
+         
+        <span class="I_box" id="Q_445" onclick="func_toggle('Q_445')">   of   </span>                
+         
+        <span class="I_box" id="Q_446" onclick="func_toggle('Q_446')">  the   </span>                
+         
+        <span class="I_box" id="Q_447" onclick="func_toggle('Q_447')"> prize  </span>                
+         
+        <span class="I_box" id="Q_448" onclick="func_toggle('Q_448')"> money  </span>                
+        . 
+        <span class="I_box" id="Q_449" onclick="func_toggle('Q_449')">   He   </span>                
+         
+        <span class="I_box" id="Q_450" onclick="func_toggle('Q_450')">explained</span>                
+         
+        <span class="I_box" id="Q_451" onclick="func_toggle('Q_451')">  that  </span>                
+         
+        <span class="I_box" id="Q_452" onclick="func_toggle('Q_452')">   he   </span>                
+         
+        <span class="I_box" id="Q_453" onclick="func_toggle('Q_453')">  had   </span>                
+         
+        <span class="I_box" id="Q_454" onclick="func_toggle('Q_454')">  used  </span>                
+         
+        <span class="I_box" id="Q_455" onclick="func_toggle('Q_455')">  his   </span>                
+         
+        <span class="I_box" id="Q_456" onclick="func_toggle('Q_456')">  own   </span>                
+         
+        <span class="I_box" id="Q_457" onclick="func_toggle('Q_457')"> money  </span>                
+         
+        <span class="I_box" id="Q_458" onclick="func_toggle('Q_458')">  for   </span>                
+         
+        <span class="I_box" id="Q_459" onclick="func_toggle('Q_459')">  the   </span>                
+         
+        <span class="I_box" id="Q_460" onclick="func_toggle('Q_460')"> tests  </span>                
+         
+        <span class="I_box" id="Q_461" onclick="func_toggle('Q_461')">  and   </span>                
+         
+        <span class="I_box" id="Q_462" onclick="func_toggle('Q_462')">  the   </span>                
+         
+        <span class="I_box" id="Q_463" onclick="func_toggle('Q_463')"> study  </span>                
+         
+        <span class="I_box" id="Q_464" onclick="func_toggle('Q_464')">  was   </span>                
+         
+        <span class="I_box" id="Q_465" onclick="func_toggle('Q_465')">   in   </span>                
+         
+        <span class="I_box" id="Q_466" onclick="func_toggle('Q_466')"> danger </span>                
+         
+        <span class="I_box" id="Q_467" onclick="func_toggle('Q_467')">   of   </span>                
+         
+        <span class="I_box" id="Q_468" onclick="func_toggle('Q_468')">running </span>                
+         
+        <span class="I_box" id="Q_469" onclick="func_toggle('Q_469')">  out   </span>                
+         
+        <span class="I_box" id="Q_470" onclick="func_toggle('Q_470')">   of   </span>                
+         
+        <span class="I_box" id="Q_471" onclick="func_toggle('Q_471')"> funds  </span>                
+        . 
+        <span class="I_box" id="Q_472" onclick="func_toggle('Q_472')"> Group  </span>                
+         
+        <span class="I_box" id="Q_473" onclick="func_toggle('Q_473')">   2    </span>                
+         
+        <span class="I_box" id="Q_474" onclick="func_toggle('Q_474')">  was   </span>                
+         
+        <span class="I_box" id="Q_475" onclick="func_toggle('Q_475')"> asked  </span>                
+         
+        <span class="I_box" id="Q_476" onclick="func_toggle('Q_476')">   by   </span>                
+         
+        <span class="I_box" id="Q_477" onclick="func_toggle('Q_477')">   a    </span>                
+         
+        <span class="I_box" id="Q_478" onclick="func_toggle('Q_478')">secretary</span>                
+         
+        <span class="I_box" id="Q_479" onclick="func_toggle('Q_479')">   to   </span>                
+         
+        <span class="I_box" id="Q_480" onclick="func_toggle('Q_480')"> return </span>                
+         
+        <span class="I_box" id="Q_481" onclick="func_toggle('Q_481')">  some  </span>                
+         
+        <span class="I_box" id="Q_482" onclick="func_toggle('Q_482')">   of   </span>                
+         
+        <span class="I_box" id="Q_483" onclick="func_toggle('Q_483')">  the   </span>                
+         
+        <span class="I_box" id="Q_484" onclick="func_toggle('Q_484')"> money  </span>                
+         
+        <span class="I_box" id="Q_485" onclick="func_toggle('Q_485')">   to   </span>                
+         
+        <span class="I_box" id="Q_486" onclick="func_toggle('Q_486')">  the   </span>                
+         
+        <span class="I_box" id="Q_487" onclick="func_toggle('Q_487')">institution</span>                
+         
+        <span class="I_box" id="Q_488" onclick="func_toggle('Q_488')">because </span>                
+         
+        <span class="I_box" id="Q_489" onclick="func_toggle('Q_489')">  the   </span>                
+         
+        <span class="I_box" id="Q_490" onclick="func_toggle('Q_490')"> budget </span>                
+         
+        <span class="I_box" id="Q_491" onclick="func_toggle('Q_491')">  was   </span>                
+         
+        <span class="I_box" id="Q_492" onclick="func_toggle('Q_492')">running </span>                
+         
+        <span class="I_box" id="Q_493" onclick="func_toggle('Q_493')">  low   </span>                
+        . 
+        <span class="I_box" id="Q_494" onclick="func_toggle('Q_494')"> Group  </span>                
+         
+        <span class="I_box" id="Q_495" onclick="func_toggle('Q_495')">   3    </span>                
+         
+        <span class="I_box" id="Q_496" onclick="func_toggle('Q_496')">  was   </span>                
+         
+        <span class="I_box" id="Q_497" onclick="func_toggle('Q_497')">  not   </span>                
+         
+        <span class="I_box" id="Q_498" onclick="func_toggle('Q_498')"> asked  </span>                
+         
+        <span class="I_box" id="Q_499" onclick="func_toggle('Q_499')">   to   </span>                
+         
+        <span class="I_box" id="Q_500" onclick="func_toggle('Q_500')"> return </span>                
+         
+        <span class="I_box" id="Q_501" onclick="func_toggle('Q_501')">  any   </span>                
+         
+        <span class="I_box" id="Q_502" onclick="func_toggle('Q_502')"> money  </span>                
+        . 
+        <span class="I_box" id="Q_503" onclick="func_toggle('Q_503')">Afterward</span>                
+        , 
+        <span class="I_box" id="Q_504" onclick="func_toggle('Q_504')">  all   </span>                
+         
+        <span class="I_box" id="Q_505" onclick="func_toggle('Q_505')"> three  </span>                
+         
+        <span class="I_box" id="Q_506" onclick="func_toggle('Q_506')"> groups </span>                
+         
+        <span class="I_box" id="Q_507" onclick="func_toggle('Q_507')">  were  </span>                
+         
+        <span class="I_box" id="Q_508" onclick="func_toggle('Q_508')"> asked  </span>                
+         
+        <span class="I_box" id="Q_509" onclick="func_toggle('Q_509')">   to   </span>                
+         
+        <span class="I_box" id="Q_510" onclick="func_toggle('Q_510')">  rate  </span>                
+         
+        <span class="I_box" id="Q_511" onclick="func_toggle('Q_511')">  how   </span>                
+         
+        <span class="I_box" id="Q_512" onclick="func_toggle('Q_512')">  much  </span>                
+         
+        <span class="I_box" id="Q_513" onclick="func_toggle('Q_513')">  they  </span>                
+         
+        <span class="I_box" id="Q_514" onclick="func_toggle('Q_514')"> liked  </span>                
+         
+        <span class="I_box" id="Q_515" onclick="func_toggle('Q_515')">  the   </span>                
+         
+        <span class="I_box" id="Q_516" onclick="func_toggle('Q_516')">researcher</span>                
+        . 
+        <span class="I_box" id="Q_517" onclick="func_toggle('Q_517')">  The   </span>                
+         
+        <span class="I_box" id="Q_518" onclick="func_toggle('Q_518')"> people </span>                
+         
+        <span class="I_box" id="Q_519" onclick="func_toggle('Q_519')">   in   </span>                
+         
+        <span class="I_box" id="Q_520" onclick="func_toggle('Q_520')"> Group  </span>                
+         
+        <span class="I_box" id="Q_521" onclick="func_toggle('Q_521')">   1    </span>                
+        , 
+        <span class="I_box" id="Q_522" onclick="func_toggle('Q_522')">  who   </span>                
+         
+        <span class="I_box" id="Q_523" onclick="func_toggle('Q_523')">  had   </span>                
+         
+        <span class="I_box" id="Q_524" onclick="func_toggle('Q_524')">  done  </span>                
+         
+        <span class="I_box" id="Q_525" onclick="func_toggle('Q_525')">  the   </span>                
+         
+        <span class="I_box" id="Q_526" onclick="func_toggle('Q_526')">researcher</span>                
+         
+        <span class="I_box" id="Q_527" onclick="func_toggle('Q_527')">   a    </span>                
+         
+        <span class="I_box" id="Q_528" onclick="func_toggle('Q_528')">personal</span>                
+         
+        <span class="I_box" id="Q_529" onclick="func_toggle('Q_529')"> favor  </span>                
+         
+        <span class="I_box" id="Q_530" onclick="func_toggle('Q_530')">   by   </span>                
+         
+        <span class="I_box" id="Q_531" onclick="func_toggle('Q_531')">returning</span>                
+         
+        <span class="I_box" id="Q_532" onclick="func_toggle('Q_532')">  some  </span>                
+         
+        <span class="I_box" id="Q_533" onclick="func_toggle('Q_533')">   of   </span>                
+         
+        <span class="I_box" id="Q_534" onclick="func_toggle('Q_534')">  the   </span>                
+         
+        <span class="I_box" id="Q_535" onclick="func_toggle('Q_535')"> money  </span>                
+        , 
+        <span class="I_box" id="Q_536" onclick="func_toggle('Q_536')"> rated  </span>                
+         
+        <span class="I_box" id="Q_537" onclick="func_toggle('Q_537')">  the   </span>                
+         
+        <span class="I_box" id="Q_538" onclick="func_toggle('Q_538')">researcher</span>                
+         
+        <span class="I_box" id="Q_539" onclick="func_toggle('Q_539')">  the   </span>                
+         
+        <span class="I_box" id="Q_540" onclick="func_toggle('Q_540')">highest </span>                
+        . 
+        <span class="I_box" id="Q_541" onclick="func_toggle('Q_541')">Despite </span>                
+         
+        <span class="I_box" id="Q_542" onclick="func_toggle('Q_542')">  the   </span>                
+         
+        <span class="I_box" id="Q_543" onclick="func_toggle('Q_543')">  fact  </span>                
+         
+        <span class="I_box" id="Q_544" onclick="func_toggle('Q_544')">  that  </span>                
+         
+        <span class="I_box" id="Q_545" onclick="func_toggle('Q_545')">  they  </span>                
+         
+        <span class="I_box" id="Q_546" onclick="func_toggle('Q_546')">  had   </span>                
+         
+        <span class="I_box" id="Q_547" onclick="func_toggle('Q_547')">  had   </span>                
+         
+        <span class="I_box" id="Q_548" onclick="func_toggle('Q_548')">   a    </span>                
+         
+        <span class="I_box" id="Q_549" onclick="func_toggle('Q_549')">  bad   </span>                
+         
+        <span class="I_box" id="Q_550" onclick="func_toggle('Q_550')">impression</span>                
+         
+        <span class="I_box" id="Q_551" onclick="func_toggle('Q_551')">   of   </span>                
+         
+        <span class="I_box" id="Q_552" onclick="func_toggle('Q_552')">  him   </span>                
+         
+        <span class="I_box" id="Q_553" onclick="func_toggle('Q_553')"> during </span>                
+         
+        <span class="I_box" id="Q_554" onclick="func_toggle('Q_554')">  the   </span>                
+         
+        <span class="I_box" id="Q_555" onclick="func_toggle('Q_555')">experiment</span>                
+        , 
+        <span class="I_box" id="Q_556" onclick="func_toggle('Q_556')">  they  </span>                
+         
+        <span class="I_box" id="Q_557" onclick="func_toggle('Q_557')">  had   </span>                
+         
+        <span class="I_box" id="Q_558" onclick="func_toggle('Q_558')">  more  </span>                
+         
+        <span class="I_box" id="Q_559" onclick="func_toggle('Q_559')">positive</span>                
+         
+        <span class="I_box" id="Q_560" onclick="func_toggle('Q_560')">feelings</span>                
+         
+        <span class="I_box" id="Q_561" onclick="func_toggle('Q_561')">  for   </span>                
+         
+        <span class="I_box" id="Q_562" onclick="func_toggle('Q_562')">  him   </span>                
+         
+        <span class="I_box" id="Q_563" onclick="func_toggle('Q_563')"> after  </span>                
+         
+        <span class="I_box" id="Q_564" onclick="func_toggle('Q_564')">returning</span>                
+         “
+        <span class="I_box" id="Q_565" onclick="func_toggle('Q_565')">  his   </span>                
+         
+        <span class="I_box" id="Q_566" onclick="func_toggle('Q_566')"> money  </span>                
+        .”</p>
+<p>
+</p>
+<p>
+
+        <span class="I_box" id="Q_567" onclick="func_toggle('Q_567')">  How   </span>                
+         
+        <span class="I_box" id="Q_568" onclick="func_toggle('Q_568')">  can   </span>                
+         
+        <span class="I_box" id="Q_569" onclick="func_toggle('Q_569')">   it   </span>                
+         
+        <span class="I_box" id="Q_570" onclick="func_toggle('Q_570')">   be   </span>                
+         
+        <span class="I_box" id="Q_571" onclick="func_toggle('Q_571')">  that  </span>                
+         
+        <span class="I_box" id="Q_572" onclick="func_toggle('Q_572')">   we   </span>                
+         
+        <span class="I_box" id="Q_573" onclick="func_toggle('Q_573')">  feel  </span>                
+         
+        <span class="I_box" id="Q_574" onclick="func_toggle('Q_574')">  more  </span>                
+         
+        <span class="I_box" id="Q_575" onclick="func_toggle('Q_575')">positively</span>                
+         
+        <span class="I_box" id="Q_576" onclick="func_toggle('Q_576')"> toward </span>                
+         
+        <span class="I_box" id="Q_577" onclick="func_toggle('Q_577')"> people </span>                
+         
+        <span class="I_box" id="Q_578" onclick="func_toggle('Q_578')">  for   </span>                
+         
+        <span class="I_box" id="Q_579" onclick="func_toggle('Q_579')">  whom  </span>                
+         
+        <span class="I_box" id="Q_580" onclick="func_toggle('Q_580')">   we   </span>                
+         
+        <span class="I_box" id="Q_581" onclick="func_toggle('Q_581')">   do   </span>                
+         
+        <span class="I_box" id="Q_582" onclick="func_toggle('Q_582')"> favors </span>                
+        ? 
+        <span class="I_box" id="Q_583" onclick="func_toggle('Q_583')">   It   </span>                
+         
+        <span class="I_box" id="Q_584" onclick="func_toggle('Q_584')">   is   </span>                
+         
+        <span class="I_box" id="Q_585" onclick="func_toggle('Q_585')">because </span>                
+         
+        <span class="I_box" id="Q_586" onclick="func_toggle('Q_586')">   of   </span>                
+         
+        <span class="I_box" id="Q_587" onclick="func_toggle('Q_587')">  what  </span>                
+         
+        <span class="I_box" id="Q_588" onclick="func_toggle('Q_588')">psychologists</span>                
+         
+        <span class="I_box" id="Q_589" onclick="func_toggle('Q_589')"> refer  </span>                
+         
+        <span class="I_box" id="Q_590" onclick="func_toggle('Q_590')">   to   </span>                
+         
+        <span class="I_box" id="Q_591" onclick="func_toggle('Q_591')">   as   </span>                
+         “
+        <span class="I_box" id="Q_592" onclick="func_toggle('Q_592')">cognitive</span>                
+         
+        <span class="I_box" id="Q_593" onclick="func_toggle('Q_593')">dissonance</span>                
+        .” 
+        <span class="I_box" id="Q_594" onclick="func_toggle('Q_594')">   We   </span>                
+         
+        <span class="I_box" id="Q_595" onclick="func_toggle('Q_595')">  want  </span>                
+         
+        <span class="I_box" id="Q_596" onclick="func_toggle('Q_596')">  our   </span>                
+         
+        <span class="I_box" id="Q_597" onclick="func_toggle('Q_597')">actions </span>                
+         
+        <span class="I_box" id="Q_598" onclick="func_toggle('Q_598')">  and   </span>                
+         
+        <span class="I_box" id="Q_599" onclick="func_toggle('Q_599')">  our   </span>                
+         
+        <span class="I_box" id="Q_600" onclick="func_toggle('Q_600')">thoughts</span>                
+         
+        <span class="I_box" id="Q_601" onclick="func_toggle('Q_601')">   to   </span>                
+         
+        <span class="I_box" id="Q_602" onclick="func_toggle('Q_602')">   be   </span>                
+         
+        <span class="I_box" id="Q_603" onclick="func_toggle('Q_603')">   in   </span>                
+         
+        <span class="I_box" id="Q_604" onclick="func_toggle('Q_604')">harmony </span>                
+        . 
+        <span class="I_box" id="Q_605" onclick="func_toggle('Q_605')">  When  </span>                
+         
+        <span class="I_box" id="Q_606" onclick="func_toggle('Q_606')">   we   </span>                
+         
+        <span class="I_box" id="Q_607" onclick="func_toggle('Q_607')">   do   </span>                
+         
+        <span class="I_box" id="Q_608" onclick="func_toggle('Q_608')">something</span>                
+         
+        <span class="I_box" id="Q_609" onclick="func_toggle('Q_609')">  that  </span>                
+         
+        <span class="I_box" id="Q_610" onclick="func_toggle('Q_610')">   we   </span>                
+         
+        <span class="I_box" id="Q_611" onclick="func_toggle('Q_611')">   do   </span>                
+         
+        <span class="I_box" id="Q_612" onclick="func_toggle('Q_612')">  not   </span>                
+         
+        <span class="I_box" id="Q_613" onclick="func_toggle('Q_613')">  like  </span>                
+        , 
+        <span class="I_box" id="Q_614" onclick="func_toggle('Q_614')">  the   </span>                
+         
+        <span class="I_box" id="Q_615" onclick="func_toggle('Q_615')">balance </span>                
+         
+        <span class="I_box" id="Q_616" onclick="func_toggle('Q_616')">   is   </span>                
+         
+        <span class="I_box" id="Q_617" onclick="func_toggle('Q_617')"> broken </span>                
+        , 
+        <span class="I_box" id="Q_618" onclick="func_toggle('Q_618')">  and   </span>                
+         
+        <span class="I_box" id="Q_619" onclick="func_toggle('Q_619')">   we   </span>                
+         
+        <span class="I_box" id="Q_620" onclick="func_toggle('Q_620')">  feel  </span>                
+         
+        <span class="I_box" id="Q_621" onclick="func_toggle('Q_621')">unhappy </span>                
+        . 
+        <span class="I_box" id="Q_622" onclick="func_toggle('Q_622')">   If   </span>                
+         
+        <span class="I_box" id="Q_623" onclick="func_toggle('Q_623')"> there  </span>                
+         
+        <span class="I_box" id="Q_624" onclick="func_toggle('Q_624')">   is   </span>                
+         
+        <span class="I_box" id="Q_625" onclick="func_toggle('Q_625')">   a    </span>                
+         
+        <span class="I_box" id="Q_626" onclick="func_toggle('Q_626')">conflict</span>                
+         
+        <span class="I_box" id="Q_627" onclick="func_toggle('Q_627')">between </span>                
+         
+        <span class="I_box" id="Q_628" onclick="func_toggle('Q_628')">  our   </span>                
+         
+        <span class="I_box" id="Q_629" onclick="func_toggle('Q_629')">thoughts</span>                
+         
+        <span class="I_box" id="Q_630" onclick="func_toggle('Q_630')">  and   </span>                
+         
+        <span class="I_box" id="Q_631" onclick="func_toggle('Q_631')">  our   </span>                
+         
+        <span class="I_box" id="Q_632" onclick="func_toggle('Q_632')">actions </span>                
+         (
+        <span class="I_box" id="Q_633" onclick="func_toggle('Q_633')">cognitive</span>                
+         
+        <span class="I_box" id="Q_634" onclick="func_toggle('Q_634')">dissonance</span>                
+        ), 
+        <span class="I_box" id="Q_635" onclick="func_toggle('Q_635')">   we   </span>                
+         
+        <span class="I_box" id="Q_636" onclick="func_toggle('Q_636')">  will  </span>                
+         
+        <span class="I_box" id="Q_637" onclick="func_toggle('Q_637')"> change </span>                
+         
+        <span class="I_box" id="Q_638" onclick="func_toggle('Q_638')">  one   </span>                
+         
+        <span class="I_box" id="Q_639" onclick="func_toggle('Q_639')">   or   </span>                
+         
+        <span class="I_box" id="Q_640" onclick="func_toggle('Q_640')">  the   </span>                
+         
+        <span class="I_box" id="Q_641" onclick="func_toggle('Q_641')"> other  </span>                
+         
+        <span class="I_box" id="Q_642" onclick="func_toggle('Q_642')">   to   </span>                
+         
+        <span class="I_box" id="Q_643" onclick="func_toggle('Q_643')">relieve </span>                
+         
+        <span class="I_box" id="Q_644" onclick="func_toggle('Q_644')">  the   </span>                
+         
+        <span class="I_box" id="Q_645" onclick="func_toggle('Q_645')">conflict</span>                
+        . 
+        <span class="I_box" id="Q_646" onclick="func_toggle('Q_646')"> After  </span>                
+         
+        <span class="I_box" id="Q_647" onclick="func_toggle('Q_647')">lending </span>                
+         
+        <span class="I_box" id="Q_648" onclick="func_toggle('Q_648')">Franklin</span>                
+         
+        <span class="I_box" id="Q_649" onclick="func_toggle('Q_649')">  the   </span>                
+         
+        <span class="I_box" id="Q_650" onclick="func_toggle('Q_650')">  book  </span>                
+        , 
+        <span class="I_box" id="Q_651" onclick="func_toggle('Q_651')">Franklin</span>                
+        ’
+        <span class="I_box" id="Q_652" onclick="func_toggle('Q_652')">   s    </span>                
+         
+        <span class="I_box" id="Q_653" onclick="func_toggle('Q_653')"> enemy  </span>                
+         
+        <span class="I_box" id="Q_654" onclick="func_toggle('Q_654')">experienced</span>                
+         
+        <span class="I_box" id="Q_655" onclick="func_toggle('Q_655')">cognitive</span>                
+         
+        <span class="I_box" id="Q_656" onclick="func_toggle('Q_656')">dissonance</span>                
+        . 
+        <span class="I_box" id="Q_657" onclick="func_toggle('Q_657')">   He   </span>                
+         
+        <span class="I_box" id="Q_658" onclick="func_toggle('Q_658')">  felt  </span>                
+         
+        <span class="I_box" id="Q_659" onclick="func_toggle('Q_659')">troubled</span>                
+         
+        <span class="I_box" id="Q_660" onclick="func_toggle('Q_660')">because </span>                
+         
+        <span class="I_box" id="Q_661" onclick="func_toggle('Q_661')">   he   </span>                
+         
+        <span class="I_box" id="Q_662" onclick="func_toggle('Q_662')">  was   </span>                
+         
+        <span class="I_box" id="Q_663" onclick="func_toggle('Q_663')"> doing  </span>                
+         
+        <span class="I_box" id="Q_664" onclick="func_toggle('Q_664')">something</span>                
+         
+        <span class="I_box" id="Q_665" onclick="func_toggle('Q_665')">  nice  </span>                
+         
+        <span class="I_box" id="Q_666" onclick="func_toggle('Q_666')">  for   </span>                
+         
+        <span class="I_box" id="Q_667" onclick="func_toggle('Q_667')">someone </span>                
+         
+        <span class="I_box" id="Q_668" onclick="func_toggle('Q_668')">   he   </span>                
+         
+        <span class="I_box" id="Q_669" onclick="func_toggle('Q_669')">disliked</span>                
+        . 
+        <span class="I_box" id="Q_670" onclick="func_toggle('Q_670')">Feeling </span>                
+         
+        <span class="I_box" id="Q_671" onclick="func_toggle('Q_671')">anxious </span>                
+         
+        <span class="I_box" id="Q_672" onclick="func_toggle('Q_672')">  and   </span>                
+         
+        <span class="I_box" id="Q_673" onclick="func_toggle('Q_673')">unhappy </span>                
+        , 
+        <span class="I_box" id="Q_674" onclick="func_toggle('Q_674')">   he   </span>                
+         
+        <span class="I_box" id="Q_675" onclick="func_toggle('Q_675')">  had   </span>                
+         
+        <span class="I_box" id="Q_676" onclick="func_toggle('Q_676')">   to   </span>                
+         
+        <span class="I_box" id="Q_677" onclick="func_toggle('Q_677')">  find  </span>                
+         
+        <span class="I_box" id="Q_678" onclick="func_toggle('Q_678')">   a    </span>                
+         
+        <span class="I_box" id="Q_679" onclick="func_toggle('Q_679')">  way   </span>                
+         
+        <span class="I_box" id="Q_680" onclick="func_toggle('Q_680')">   to   </span>                
+         
+        <span class="I_box" id="Q_681" onclick="func_toggle('Q_681')">resolve </span>                
+         
+        <span class="I_box" id="Q_682" onclick="func_toggle('Q_682')">  his   </span>                
+         
+        <span class="I_box" id="Q_683" onclick="func_toggle('Q_683')">feelings</span>                
+        . 
+        <span class="I_box" id="Q_684" onclick="func_toggle('Q_684')">  The   </span>                
+         
+        <span class="I_box" id="Q_685" onclick="func_toggle('Q_685')">easiest </span>                
+         
+        <span class="I_box" id="Q_686" onclick="func_toggle('Q_686')">  way   </span>                
+         
+        <span class="I_box" id="Q_687" onclick="func_toggle('Q_687')">  for   </span>                
+         
+        <span class="I_box" id="Q_688" onclick="func_toggle('Q_688')">  him   </span>                
+         
+        <span class="I_box" id="Q_689" onclick="func_toggle('Q_689')">   to   </span>                
+         
+        <span class="I_box" id="Q_690" onclick="func_toggle('Q_690')">   do   </span>                
+         
+        <span class="I_box" id="Q_691" onclick="func_toggle('Q_691')">  that  </span>                
+         
+        <span class="I_box" id="Q_692" onclick="func_toggle('Q_692')">  was   </span>                
+         
+        <span class="I_box" id="Q_693" onclick="func_toggle('Q_693')">   to   </span>                
+         
+        <span class="I_box" id="Q_694" onclick="func_toggle('Q_694')"> change </span>                
+         
+        <span class="I_box" id="Q_695" onclick="func_toggle('Q_695')">  how   </span>                
+         
+        <span class="I_box" id="Q_696" onclick="func_toggle('Q_696')">   he   </span>                
+         
+        <span class="I_box" id="Q_697" onclick="func_toggle('Q_697')">thought </span>                
+         
+        <span class="I_box" id="Q_698" onclick="func_toggle('Q_698')"> about  </span>                
+         
+        <span class="I_box" id="Q_699" onclick="func_toggle('Q_699')">Franklin</span>                
+        . 
+        <span class="I_box" id="Q_700" onclick="func_toggle('Q_700')">   He   </span>                
+         
+        <span class="I_box" id="Q_701" onclick="func_toggle('Q_701')">justified</span>                
+         
+        <span class="I_box" id="Q_702" onclick="func_toggle('Q_702')"> doing  </span>                
+         
+        <span class="I_box" id="Q_703" onclick="func_toggle('Q_703')">  the   </span>                
+         
+        <span class="I_box" id="Q_704" onclick="func_toggle('Q_704')"> favor  </span>                
+         
+        <span class="I_box" id="Q_705" onclick="func_toggle('Q_705')">   by   </span>                
+         
+        <span class="I_box" id="Q_706" onclick="func_toggle('Q_706')">telling </span>                
+         
+        <span class="I_box" id="Q_707" onclick="func_toggle('Q_707')">himself </span>                
+         
+        <span class="I_box" id="Q_708" onclick="func_toggle('Q_708')">  that  </span>                
+         
+        <span class="I_box" id="Q_709" onclick="func_toggle('Q_709')">Franklin</span>                
+         
+        <span class="I_box" id="Q_710" onclick="func_toggle('Q_710')">  was   </span>                
+         
+        <span class="I_box" id="Q_711" onclick="func_toggle('Q_711')">  not   </span>                
+         
+        <span class="I_box" id="Q_712" onclick="func_toggle('Q_712')">   a    </span>                
+         
+        <span class="I_box" id="Q_713" onclick="func_toggle('Q_713')">  bad   </span>                
+         
+        <span class="I_box" id="Q_714" onclick="func_toggle('Q_714')"> person </span>                
+         
+        <span class="I_box" id="Q_715" onclick="func_toggle('Q_715')"> after  </span>                
+         
+        <span class="I_box" id="Q_716" onclick="func_toggle('Q_716')">  all   </span>                
+         
+        <span class="I_box" id="Q_717" onclick="func_toggle('Q_717')">  and   </span>                
+         
+        <span class="I_box" id="Q_718" onclick="func_toggle('Q_718')">convinced</span>                
+         
+        <span class="I_box" id="Q_719" onclick="func_toggle('Q_719')">himself </span>                
+         
+        <span class="I_box" id="Q_720" onclick="func_toggle('Q_720')">  that  </span>                
+         
+        <span class="I_box" id="Q_721" onclick="func_toggle('Q_721')">   he   </span>                
+         
+        <span class="I_box" id="Q_722" onclick="func_toggle('Q_722')">actually</span>                
+         
+        <span class="I_box" id="Q_723" onclick="func_toggle('Q_723')"> liked  </span>                
+         
+        <span class="I_box" id="Q_724" onclick="func_toggle('Q_724')">Franklin</span>                
+        .</p>
+<p>
+</p>
+<p>
+
+        <span class="I_box" id="Q_725" onclick="func_toggle('Q_725')">   Is   </span>                
+         
+        <span class="I_box" id="Q_726" onclick="func_toggle('Q_726')"> there  </span>                
+         
+        <span class="I_box" id="Q_727" onclick="func_toggle('Q_727')">someone </span>                
+         
+        <span class="I_box" id="Q_728" onclick="func_toggle('Q_728')">  with  </span>                
+         
+        <span class="I_box" id="Q_729" onclick="func_toggle('Q_729')">  whom  </span>                
+         
+        <span class="I_box" id="Q_730" onclick="func_toggle('Q_730')">  you   </span>                
+         
+        <span class="I_box" id="Q_731" onclick="func_toggle('Q_731')"> would  </span>                
+         
+        <span class="I_box" id="Q_732" onclick="func_toggle('Q_732')">  like  </span>                
+         
+        <span class="I_box" id="Q_733" onclick="func_toggle('Q_733')">   to   </span>                
+         
+        <span class="I_box" id="Q_734" onclick="func_toggle('Q_734')">  have  </span>                
+         
+        <span class="I_box" id="Q_735" onclick="func_toggle('Q_735')">   a    </span>                
+         
+        <span class="I_box" id="Q_736" onclick="func_toggle('Q_736')"> better </span>                
+         
+        <span class="I_box" id="Q_737" onclick="func_toggle('Q_737')">relationship</span>                
+        ? 
+        <span class="I_box" id="Q_738" onclick="func_toggle('Q_738')">  Try   </span>                
+         
+        <span class="I_box" id="Q_739" onclick="func_toggle('Q_739')"> asking </span>                
+         
+        <span class="I_box" id="Q_740" onclick="func_toggle('Q_740')">  that  </span>                
+         
+        <span class="I_box" id="Q_741" onclick="func_toggle('Q_741')"> person </span>                
+         
+        <span class="I_box" id="Q_742" onclick="func_toggle('Q_742')">  for   </span>                
+         
+        <span class="I_box" id="Q_743" onclick="func_toggle('Q_743')">   a    </span>                
+         
+        <span class="I_box" id="Q_744" onclick="func_toggle('Q_744')"> small  </span>                
+         
+        <span class="I_box" id="Q_745" onclick="func_toggle('Q_745')"> favor  </span>                
+        , 
+        <span class="I_box" id="Q_746" onclick="func_toggle('Q_746')">  such  </span>                
+         
+        <span class="I_box" id="Q_747" onclick="func_toggle('Q_747')">   as   </span>                
+         
+        <span class="I_box" id="Q_748" onclick="func_toggle('Q_748')">lending </span>                
+         
+        <span class="I_box" id="Q_749" onclick="func_toggle('Q_749')">  you   </span>                
+         
+        <span class="I_box" id="Q_750" onclick="func_toggle('Q_750')">   a    </span>                
+         
+        <span class="I_box" id="Q_751" onclick="func_toggle('Q_751')"> pencil </span>                
+         
+        <span class="I_box" id="Q_752" onclick="func_toggle('Q_752')">   or   </span>                
+         
+        <span class="I_box" id="Q_753" onclick="func_toggle('Q_753')">watching</span>                
+         
+        <span class="I_box" id="Q_754" onclick="func_toggle('Q_754')">  your  </span>                
+         
+        <span class="I_box" id="Q_755" onclick="func_toggle('Q_755')">  bag   </span>                
+         
+        <span class="I_box" id="Q_756" onclick="func_toggle('Q_756')"> while  </span>                
+         
+        <span class="I_box" id="Q_757" onclick="func_toggle('Q_757')">  you   </span>                
+         
+        <span class="I_box" id="Q_758" onclick="func_toggle('Q_758')">   go   </span>                
+         
+        <span class="I_box" id="Q_759" onclick="func_toggle('Q_759')">   to   </span>                
+         
+        <span class="I_box" id="Q_760" onclick="func_toggle('Q_760')">  the   </span>                
+         
+        <span class="I_box" id="Q_761" onclick="func_toggle('Q_761')">restroom</span>                
+        . 
+        <span class="I_box" id="Q_762" onclick="func_toggle('Q_762')">  Then  </span>                
+         
+        <span class="I_box" id="Q_763" onclick="func_toggle('Q_763')">  see   </span>                
+         
+        <span class="I_box" id="Q_764" onclick="func_toggle('Q_764')">   if   </span>                
+         
+        <span class="I_box" id="Q_765" onclick="func_toggle('Q_765')"> their  </span>                
+         
+        <span class="I_box" id="Q_766" onclick="func_toggle('Q_766')">feelings</span>                
+         
+        <span class="I_box" id="Q_767" onclick="func_toggle('Q_767')"> toward </span>                
+         
+        <span class="I_box" id="Q_768" onclick="func_toggle('Q_768')">  you   </span>                
+         
+        <span class="I_box" id="Q_769" onclick="func_toggle('Q_769')"> change </span>                
+        . 
+        <span class="I_box" id="Q_770" onclick="func_toggle('Q_770')">  The   </span>                
+         
+        <span class="I_box" id="Q_771" onclick="func_toggle('Q_771')">chances </span>                
+         
+        <span class="I_box" id="Q_772" onclick="func_toggle('Q_772')">  are   </span>                
+         
+        <span class="I_box" id="Q_773" onclick="func_toggle('Q_773')">  they  </span>                
+         
+        <span class="I_box" id="Q_774" onclick="func_toggle('Q_774')">  will  </span>                
+        .</p>
+<p>
+</p>
+<p>
+<
+        <span class="I_box" id="Q_775" onclick="func_toggle('Q_775')">CULTURE </span>                
+        ></p>
+<p>
+</p>
+<p>
+
+        <span class="I_box" id="Q_776" onclick="func_toggle('Q_776')">Proverbs</span>                
+         
+        <span class="I_box" id="Q_777" onclick="func_toggle('Q_777')"> about  </span>                
+         
+        <span class="I_box" id="Q_778" onclick="func_toggle('Q_778')"> Human  </span>                
+         
+        <span class="I_box" id="Q_779" onclick="func_toggle('Q_779')">Relationships</span>                
+        </p>
+<p>
+</p>
+<p>
+
+        <span class="I_box" id="Q_780" onclick="func_toggle('Q_780')"> Every  </span>                
+         
+        <span class="I_box" id="Q_781" onclick="func_toggle('Q_781')">culture </span>                
+         
+        <span class="I_box" id="Q_782" onclick="func_toggle('Q_782')">  has   </span>                
+         
+        <span class="I_box" id="Q_783" onclick="func_toggle('Q_783')">proverbs</span>                
+         
+        <span class="I_box" id="Q_784" onclick="func_toggle('Q_784')"> about  </span>                
+         
+        <span class="I_box" id="Q_785" onclick="func_toggle('Q_785')"> human  </span>                
+         
+        <span class="I_box" id="Q_786" onclick="func_toggle('Q_786')">relationships</span>                
+        . 
+        <span class="I_box" id="Q_787" onclick="func_toggle('Q_787')">  Read  </span>                
+         
+        <span class="I_box" id="Q_788" onclick="func_toggle('Q_788')">  the   </span>                
+         
+        <span class="I_box" id="Q_789" onclick="func_toggle('Q_789')">following</span>                
+         
+        <span class="I_box" id="Q_790" onclick="func_toggle('Q_790')">proverbs</span>                
+         
+        <span class="I_box" id="Q_791" onclick="func_toggle('Q_791')">different</span>                
+         
+        <span class="I_box" id="Q_792" onclick="func_toggle('Q_792')">countries</span>                
+         
+        <span class="I_box" id="Q_793" onclick="func_toggle('Q_793')">  and   </span>                
+         
+        <span class="I_box" id="Q_794" onclick="func_toggle('Q_794')">cultures</span>                
+         
+        <span class="I_box" id="Q_795" onclick="func_toggle('Q_795')">  and   </span>                
+         
+        <span class="I_box" id="Q_796" onclick="func_toggle('Q_796')"> think  </span>                
+         
+        <span class="I_box" id="Q_797" onclick="func_toggle('Q_797')"> about  </span>                
+         
+        <span class="I_box" id="Q_798" onclick="func_toggle('Q_798')">  the   </span>                
+         
+        <span class="I_box" id="Q_799" onclick="func_toggle('Q_799')">meaning </span>                
+         
+        <span class="I_box" id="Q_800" onclick="func_toggle('Q_800')">   of   </span>                
+         
+        <span class="I_box" id="Q_801" onclick="func_toggle('Q_801')">  each  </span>                
+         
+        <span class="I_box" id="Q_802" onclick="func_toggle('Q_802')">  one   </span>                
+        .</p>
+<p>
+</p>
+<p>
+
+        <span class="I_box" id="Q_803" onclick="func_toggle('Q_803')">   He   </span>                
+         
+        <span class="I_box" id="Q_804" onclick="func_toggle('Q_804')">  who   </span>                
+         
+        <span class="I_box" id="Q_805" onclick="func_toggle('Q_805')">  gets  </span>                
+         
+        <span class="I_box" id="Q_806" onclick="func_toggle('Q_806')"> close  </span>                
+         
+        <span class="I_box" id="Q_807" onclick="func_toggle('Q_807')">   to   </span>                
+         
+        <span class="I_box" id="Q_808" onclick="func_toggle('Q_808')">   a    </span>                
+         
+        <span class="I_box" id="Q_809" onclick="func_toggle('Q_809')">  good  </span>                
+         
+        <span class="I_box" id="Q_810" onclick="func_toggle('Q_810')">  tree  </span>                
+         
+        <span class="I_box" id="Q_811" onclick="func_toggle('Q_811')">  will  </span>                
+         
+        <span class="I_box" id="Q_812" onclick="func_toggle('Q_812')">  have  </span>                
+         
+        <span class="I_box" id="Q_813" onclick="func_toggle('Q_813')">  good  </span>                
+         
+        <span class="I_box" id="Q_814" onclick="func_toggle('Q_814')"> shade  </span>                
+         
+        <span class="I_box" id="Q_815" onclick="func_toggle('Q_815')"> Spain  </span>                
+        </p>
+<p>
+</p>
+<p>
+
+        <span class="I_box" id="Q_816" onclick="func_toggle('Q_816')">  Kind  </span>                
+         
+        <span class="I_box" id="Q_817" onclick="func_toggle('Q_817')"> words  </span>                
+         
+        <span class="I_box" id="Q_818" onclick="func_toggle('Q_818')">  take  </span>                
+         
+        <span class="I_box" id="Q_819" onclick="func_toggle('Q_819')">  the   </span>                
+         
+        <span class="I_box" id="Q_820" onclick="func_toggle('Q_820')"> snake  </span>                
+         
+        <span class="I_box" id="Q_821" onclick="func_toggle('Q_821')">  out   </span>                
+         
+        <span class="I_box" id="Q_822" onclick="func_toggle('Q_822')">   of   </span>                
+         
+        <span class="I_box" id="Q_823" onclick="func_toggle('Q_823')">  its   </span>                
+         
+        <span class="I_box" id="Q_824" onclick="func_toggle('Q_824')">  hole  </span>                
+         
+        <span class="I_box" id="Q_825" onclick="func_toggle('Q_825')"> Turkey </span>                
+        </p>
+<p>
+</p>
+<p>
+
+        <span class="I_box" id="Q_826" onclick="func_toggle('Q_826')">  Show  </span>                
+         
+        <span class="I_box" id="Q_827" onclick="func_toggle('Q_827')">   me   </span>                
+         
+        <span class="I_box" id="Q_828" onclick="func_toggle('Q_828')">  your  </span>                
+         
+        <span class="I_box" id="Q_829" onclick="func_toggle('Q_829')">friends </span>                
+         
+        <span class="I_box" id="Q_830" onclick="func_toggle('Q_830')">  and   </span>                
+         
+        <span class="I_box" id="Q_831" onclick="func_toggle('Q_831')">   I    </span>                
+        ’
+        <span class="I_box" id="Q_832" onclick="func_toggle('Q_832')">   l    </span>                
+         
+        <span class="I_box" id="Q_833" onclick="func_toggle('Q_833')">  tell  </span>                
+         
+        <span class="I_box" id="Q_834" onclick="func_toggle('Q_834')">  you   </span>                
+         
+        <span class="I_box" id="Q_835" onclick="func_toggle('Q_835')">  who   </span>                
+         
+        <span class="I_box" id="Q_836" onclick="func_toggle('Q_836')">  you   </span>                
+         
+        <span class="I_box" id="Q_837" onclick="func_toggle('Q_837')">  are   </span>                
+         
+        <span class="I_box" id="Q_838" onclick="func_toggle('Q_838')"> Russia </span>                
+        </p>
+<p>
+</p>
+<p>
+
+        <span class="I_box" id="Q_839" onclick="func_toggle('Q_839')">   As   </span>                
+         
+        <span class="I_box" id="Q_840" onclick="func_toggle('Q_840')">distance</span>                
+         
+        <span class="I_box" id="Q_841" onclick="func_toggle('Q_841')"> tests  </span>                
+         
+        <span class="I_box" id="Q_842" onclick="func_toggle('Q_842')">   a    </span>                
+         
+        <span class="I_box" id="Q_843" onclick="func_toggle('Q_843')"> horse  </span>                
+        ’ 
+        <span class="I_box" id="Q_844" onclick="func_toggle('Q_844')">strength</span>                
+        , 
+        <span class="I_box" id="Q_845" onclick="func_toggle('Q_845')">   so   </span>                
+         
+        <span class="I_box" id="Q_846" onclick="func_toggle('Q_846')">  does  </span>                
+         
+        <span class="I_box" id="Q_847" onclick="func_toggle('Q_847')">  time  </span>                
+         
+        <span class="I_box" id="Q_848" onclick="func_toggle('Q_848')"> reveal </span>                
+         
+        <span class="I_box" id="Q_849" onclick="func_toggle('Q_849')">   a    </span>                
+         
+        <span class="I_box" id="Q_850" onclick="func_toggle('Q_850')"> person </span>                
+        ’ 
+        <span class="I_box" id="Q_851" onclick="func_toggle('Q_851')">character</span>                
+         
+        <span class="I_box" id="Q_852" onclick="func_toggle('Q_852')"> China  </span>                
+        </p>
+<p>
+</p>
+<p>
+
+        <span class="I_box" id="Q_853" onclick="func_toggle('Q_853')">Laughter</span>                
+         
+        <span class="I_box" id="Q_854" onclick="func_toggle('Q_854')">   is   </span>                
+         
+        <span class="I_box" id="Q_855" onclick="func_toggle('Q_855')">   a    </span>                
+         
+        <span class="I_box" id="Q_856" onclick="func_toggle('Q_856')">language</span>                
+         
+        <span class="I_box" id="Q_857" onclick="func_toggle('Q_857')">everyone</span>                
+         
+        <span class="I_box" id="Q_858" onclick="func_toggle('Q_858')">understands</span>                
+         
+        <span class="I_box" id="Q_859" onclick="func_toggle('Q_859')">  Chad  </span>                
+        </p>
+<p>
+</p>
+<p>
+
+        <span class="I_box" id="Q_860" onclick="func_toggle('Q_860')">   A    </span>                
+         
+        <span class="I_box" id="Q_861" onclick="func_toggle('Q_861')"> friend </span>                
+         
+        <span class="I_box" id="Q_862" onclick="func_toggle('Q_862')">  will  </span>                
+         
+        <span class="I_box" id="Q_863" onclick="func_toggle('Q_863')"> cause  </span>                
+         
+        <span class="I_box" id="Q_864" onclick="func_toggle('Q_864')">  you   </span>                
+         
+        <span class="I_box" id="Q_865" onclick="func_toggle('Q_865')">   to   </span>                
+         
+        <span class="I_box" id="Q_866" onclick="func_toggle('Q_866')">  weep  </span>                
+        , 
+        <span class="I_box" id="Q_867" onclick="func_toggle('Q_867')">   an   </span>                
+         
+        <span class="I_box" id="Q_868" onclick="func_toggle('Q_868')"> enemy  </span>                
+         
+        <span class="I_box" id="Q_869" onclick="func_toggle('Q_869')">   to   </span>                
+         
+        <span class="I_box" id="Q_870" onclick="func_toggle('Q_870')"> laugh  </span>                
+         
+        <span class="I_box" id="Q_871" onclick="func_toggle('Q_871')">Afghanistan</span>                
+        </p>
+<p>
+</p>
+<p>
+
+        <span class="I_box" id="Q_872" onclick="func_toggle('Q_872')">   If   </span>                
+         
+        <span class="I_box" id="Q_873" onclick="func_toggle('Q_873')">  you   </span>                
+         
+        <span class="I_box" id="Q_874" onclick="func_toggle('Q_874')">  want  </span>                
+         
+        <span class="I_box" id="Q_875" onclick="func_toggle('Q_875')">   to   </span>                
+         
+        <span class="I_box" id="Q_876" onclick="func_toggle('Q_876')">   go   </span>                
+         
+        <span class="I_box" id="Q_877" onclick="func_toggle('Q_877')">  fast  </span>                
+        , 
+        <span class="I_box" id="Q_878" onclick="func_toggle('Q_878')">   go   </span>                
+         
+        <span class="I_box" id="Q_879" onclick="func_toggle('Q_879')"> alone  </span>                
+         
+        <span class="I_box" id="Q_880" onclick="func_toggle('Q_880')">   If   </span>                
+         
+        <span class="I_box" id="Q_881" onclick="func_toggle('Q_881')">  you   </span>                
+         
+        <span class="I_box" id="Q_882" onclick="func_toggle('Q_882')">  want  </span>                
+         
+        <span class="I_box" id="Q_883" onclick="func_toggle('Q_883')">   to   </span>                
+         
+        <span class="I_box" id="Q_884" onclick="func_toggle('Q_884')">   go   </span>                
+         
+        <span class="I_box" id="Q_885" onclick="func_toggle('Q_885')">  far   </span>                
+        , 
+        <span class="I_box" id="Q_886" onclick="func_toggle('Q_886')">   go   </span>                
+         
+        <span class="I_box" id="Q_887" onclick="func_toggle('Q_887')">together</span>                
+         
+        <span class="I_box" id="Q_888" onclick="func_toggle('Q_888')"> Africa </span>                
+        </p>
+<p>
+</p>
+<p>
+
+        <span class="I_box" id="Q_889" onclick="func_toggle('Q_889')">  Lose  </span>                
+         
+        <span class="I_box" id="Q_890" onclick="func_toggle('Q_890')">  your  </span>                
+         
+        <span class="I_box" id="Q_891" onclick="func_toggle('Q_891')"> temper </span>                
+         
+        <span class="I_box" id="Q_892" onclick="func_toggle('Q_892')">  and   </span>                
+         
+        <span class="I_box" id="Q_893" onclick="func_toggle('Q_893')">  you   </span>                
+         
+        <span class="I_box" id="Q_894" onclick="func_toggle('Q_894')">  lose  </span>                
+         
+        <span class="I_box" id="Q_895" onclick="func_toggle('Q_895')">   a    </span>                
+         
+        <span class="I_box" id="Q_896" onclick="func_toggle('Q_896')"> friend </span>                
+        ; 
+        <span class="I_box" id="Q_897" onclick="func_toggle('Q_897')">  lie   </span>                
+         
+        <span class="I_box" id="Q_898" onclick="func_toggle('Q_898')">  and   </span>                
+         
+        <span class="I_box" id="Q_899" onclick="func_toggle('Q_899')">  you   </span>                
+         
+        <span class="I_box" id="Q_900" onclick="func_toggle('Q_900')">  lose  </span>                
+         
+        <span class="I_box" id="Q_901" onclick="func_toggle('Q_901')">yourself</span>                
+         
+        <span class="I_box" id="Q_902" onclick="func_toggle('Q_902')"> Native </span>                
+         
+        <span class="I_box" id="Q_903" onclick="func_toggle('Q_903')">American</span>                
+        
+</p>
+<p>
+
+</p>
+	<!---내용 끝---->
+
+</body>
+</html>

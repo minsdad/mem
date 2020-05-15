@@ -32,6 +32,13 @@ p {
 	line-height: 130%;
 }
 
+.index {
+	display: block;
+	line-height: 100%;
+	font-weight: bold;
+	text-align: center;
+}
+
 span {
 	text-align: center;
 	border-radius: 5px;

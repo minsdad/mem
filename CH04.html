@@ -1,0 +1,1828 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>CH04</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="style.css">
+	<script type="text/javascript" src="scripts.js"></script>
+</head>
+
+<body>
+	<!---상단메뉴---->
+	<div class="container">
+		<input type="button" value="목록으로" onclick="Moving()">
+        <input type="button" value=" 20% " onclick="func_make(20)">
+        <input type="button" value=" 30% " onclick="func_make(30)">
+        <input type="button" value=" 40% " onclick="func_make(40)">
+        <input type="button" value="답안제출" onclick="func_score()">
+	</div>
+
+	<!---내용 시작---->
+    <h1>RFCx: the Rainforest Savior</h1>
+
+<p>
+</p>
+<p>
+</p>
+<p>
+
+        <span class="I_box" id="Q_0" onclick="func_toggle('Q_0')">Imagine </span>                
+         
+        <span class="I_box" id="Q_1" onclick="func_toggle('Q_1')">  you   </span>                
+         
+        <span class="I_box" id="Q_2" onclick="func_toggle('Q_2')">  are   </span>                
+         
+        <span class="I_box" id="Q_3" onclick="func_toggle('Q_3')">standing</span>                
+         
+        <span class="I_box" id="Q_4" onclick="func_toggle('Q_4')">   in   </span>                
+         
+        <span class="I_box" id="Q_5" onclick="func_toggle('Q_5')">   a    </span>                
+         
+        <span class="I_box" id="Q_6" onclick="func_toggle('Q_6')">rainforest</span>                
+        . 
+        <span class="I_box" id="Q_7" onclick="func_toggle('Q_7')">  You   </span>                
+         
+        <span class="I_box" id="Q_8" onclick="func_toggle('Q_8')">  are   </span>                
+         
+        <span class="I_box" id="Q_9" onclick="func_toggle('Q_9')">surrounded</span>                
+         
+        <span class="I_box" id="Q_10" onclick="func_toggle('Q_10')">   by   </span>                
+         
+        <span class="I_box" id="Q_11" onclick="func_toggle('Q_11')">  tall  </span>                
+         
+        <span class="I_box" id="Q_12" onclick="func_toggle('Q_12')"> trees  </span>                
+        , 
+        <span class="I_box" id="Q_13" onclick="func_toggle('Q_13')">  many  </span>                
+         
+        <span class="I_box" id="Q_14" onclick="func_toggle('Q_14')">   of   </span>                
+         
+        <span class="I_box" id="Q_15" onclick="func_toggle('Q_15')"> which  </span>                
+         
+        <span class="I_box" id="Q_16" onclick="func_toggle('Q_16')">  are   </span>                
+         
+        <span class="I_box" id="Q_17" onclick="func_toggle('Q_17')">  more  </span>                
+         
+        <span class="I_box" id="Q_18" onclick="func_toggle('Q_18')">  than  </span>                
+         
+        <span class="I_box" id="Q_19" onclick="func_toggle('Q_19')">   40   </span>                
+         
+        <span class="I_box" id="Q_20" onclick="func_toggle('Q_20')"> meters </span>                
+         
+        <span class="I_box" id="Q_21" onclick="func_toggle('Q_21')">  tall  </span>                
+        . 
+        <span class="I_box" id="Q_22" onclick="func_toggle('Q_22')">  You   </span>                
+         
+        <span class="I_box" id="Q_23" onclick="func_toggle('Q_23')">  are   </span>                
+         
+        <span class="I_box" id="Q_24" onclick="func_toggle('Q_24')">   a    </span>                
+         
+        <span class="I_box" id="Q_25" onclick="func_toggle('Q_25')">hundred </span>                
+         
+        <span class="I_box" id="Q_26" onclick="func_toggle('Q_26')">kilometers</span>                
+         
+        <span class="I_box" id="Q_27" onclick="func_toggle('Q_27')">  away  </span>                
+         
+        <span class="I_box" id="Q_28" onclick="func_toggle('Q_28')">  from  </span>                
+         
+        <span class="I_box" id="Q_29" onclick="func_toggle('Q_29')">  the   </span>                
+         
+        <span class="I_box" id="Q_30" onclick="func_toggle('Q_30')">nearest </span>                
+         
+        <span class="I_box" id="Q_31" onclick="func_toggle('Q_31')">  city  </span>                
+        . 
+        <span class="I_box" id="Q_32" onclick="func_toggle('Q_32')">  What  </span>                
+         
+        <span class="I_box" id="Q_33" onclick="func_toggle('Q_33')">   do   </span>                
+         
+        <span class="I_box" id="Q_34" onclick="func_toggle('Q_34')">  you   </span>                
+         
+        <span class="I_box" id="Q_35" onclick="func_toggle('Q_35')">  hear  </span>                
+        ? 
+        <span class="I_box" id="Q_36" onclick="func_toggle('Q_36')">   Do   </span>                
+         
+        <span class="I_box" id="Q_37" onclick="func_toggle('Q_37')">  you   </span>                
+         
+        <span class="I_box" id="Q_38" onclick="func_toggle('Q_38')"> think  </span>                
+         
+        <span class="I_box" id="Q_39" onclick="func_toggle('Q_39')">   it   </span>                
+         
+        <span class="I_box" id="Q_40" onclick="func_toggle('Q_40')">   is   </span>                
+         
+        <span class="I_box" id="Q_41" onclick="func_toggle('Q_41')">   a    </span>                
+         
+        <span class="I_box" id="Q_42" onclick="func_toggle('Q_42')"> quiet  </span>                
+        , 
+        <span class="I_box" id="Q_43" onclick="func_toggle('Q_43')">peaceful</span>                
+         
+        <span class="I_box" id="Q_44" onclick="func_toggle('Q_44')"> place  </span>                
+        ? 
+        <span class="I_box" id="Q_45" onclick="func_toggle('Q_45')">   If   </span>                
+         
+        <span class="I_box" id="Q_46" onclick="func_toggle('Q_46')">   so   </span>                
+        , 
+        <span class="I_box" id="Q_47" onclick="func_toggle('Q_47')">  you   </span>                
+         
+        <span class="I_box" id="Q_48" onclick="func_toggle('Q_48')">  are   </span>                
+         
+        <span class="I_box" id="Q_49" onclick="func_toggle('Q_49')"> wrong  </span>                
+        . 
+        <span class="I_box" id="Q_50" onclick="func_toggle('Q_50')">  The   </span>                
+         
+        <span class="I_box" id="Q_51" onclick="func_toggle('Q_51')">rainforest</span>                
+         
+        <span class="I_box" id="Q_52" onclick="func_toggle('Q_52')">   is   </span>                
+         
+        <span class="I_box" id="Q_53" onclick="func_toggle('Q_53')">actually</span>                
+         
+        <span class="I_box" id="Q_54" onclick="func_toggle('Q_54')">   a    </span>                
+         
+        <span class="I_box" id="Q_55" onclick="func_toggle('Q_55')">  very  </span>                
+         
+        <span class="I_box" id="Q_56" onclick="func_toggle('Q_56')"> noisy  </span>                
+         
+        <span class="I_box" id="Q_57" onclick="func_toggle('Q_57')"> place  </span>                
+        . 
+        <span class="I_box" id="Q_58" onclick="func_toggle('Q_58')">Insects </span>                
+        , 
+        <span class="I_box" id="Q_59" onclick="func_toggle('Q_59')"> birds  </span>                
+        , 
+        <span class="I_box" id="Q_60" onclick="func_toggle('Q_60')">  and   </span>                
+         
+        <span class="I_box" id="Q_61" onclick="func_toggle('Q_61')">monkeys </span>                
+         
+        <span class="I_box" id="Q_62" onclick="func_toggle('Q_62')">  are   </span>                
+         
+        <span class="I_box" id="Q_63" onclick="func_toggle('Q_63')">responsible</span>                
+         
+        <span class="I_box" id="Q_64" onclick="func_toggle('Q_64')">  for   </span>                
+         
+        <span class="I_box" id="Q_65" onclick="func_toggle('Q_65')">  much  </span>                
+         
+        <span class="I_box" id="Q_66" onclick="func_toggle('Q_66')">   of   </span>                
+         
+        <span class="I_box" id="Q_67" onclick="func_toggle('Q_67')">  this  </span>                
+         
+        <span class="I_box" id="Q_68" onclick="func_toggle('Q_68')"> noise  </span>                
+        . 
+        <span class="I_box" id="Q_69" onclick="func_toggle('Q_69')">  And   </span>                
+         
+        <span class="I_box" id="Q_70" onclick="func_toggle('Q_70')">sometimes</span>                
+         
+        <span class="I_box" id="Q_71" onclick="func_toggle('Q_71')"> there  </span>                
+         
+        <span class="I_box" id="Q_72" onclick="func_toggle('Q_72')">   is   </span>                
+         
+        <span class="I_box" id="Q_73" onclick="func_toggle('Q_73')">another </span>                
+         
+        <span class="I_box" id="Q_74" onclick="func_toggle('Q_74')"> sound  </span>                
+        , 
+        <span class="I_box" id="Q_75" onclick="func_toggle('Q_75')">  one   </span>                
+         
+        <span class="I_box" id="Q_76" onclick="func_toggle('Q_76')">  that  </span>                
+         
+        <span class="I_box" id="Q_77" onclick="func_toggle('Q_77')">  does  </span>                
+         
+        <span class="I_box" id="Q_78" onclick="func_toggle('Q_78')">  not   </span>                
+         
+        <span class="I_box" id="Q_79" onclick="func_toggle('Q_79')"> belong </span>                
+         
+        <span class="I_box" id="Q_80" onclick="func_toggle('Q_80')">   in   </span>                
+         
+        <span class="I_box" id="Q_81" onclick="func_toggle('Q_81')">  the   </span>                
+         
+        <span class="I_box" id="Q_82" onclick="func_toggle('Q_82')"> forest </span>                
+         
+        <span class="I_box" id="Q_83" onclick="func_toggle('Q_83')">   at   </span>                
+         
+        <span class="I_box" id="Q_84" onclick="func_toggle('Q_84')">  all   </span>                
+        . 
+        <span class="I_box" id="Q_85" onclick="func_toggle('Q_85')">   It   </span>                
+         
+        <span class="I_box" id="Q_86" onclick="func_toggle('Q_86')">   is   </span>                
+         
+        <span class="I_box" id="Q_87" onclick="func_toggle('Q_87')">  the   </span>                
+         
+        <span class="I_box" id="Q_88" onclick="func_toggle('Q_88')">  buzz  </span>                
+         
+        <span class="I_box" id="Q_89" onclick="func_toggle('Q_89')">   of   </span>                
+         
+        <span class="I_box" id="Q_90" onclick="func_toggle('Q_90')">   a    </span>                
+         
+        <span class="I_box" id="Q_91" onclick="func_toggle('Q_91')">chainsaw</span>                
+        . 
+        <span class="I_box" id="Q_92" onclick="func_toggle('Q_92')"> Every  </span>                
+         
+        <span class="I_box" id="Q_93" onclick="func_toggle('Q_93')">  year  </span>                
+         
+        <span class="I_box" id="Q_94" onclick="func_toggle('Q_94')">  some  </span>                
+         
+        <span class="I_box" id="Q_95" onclick="func_toggle('Q_95')">   13   </span>                
+         
+        <span class="I_box" id="Q_96" onclick="func_toggle('Q_96')">million </span>                
+         
+        <span class="I_box" id="Q_97" onclick="func_toggle('Q_97')">hectares</span>                
+         
+        <span class="I_box" id="Q_98" onclick="func_toggle('Q_98')">   of   </span>                
+         
+        <span class="I_box" id="Q_99" onclick="func_toggle('Q_99')">rainforest</span>                
+        , 
+        <span class="I_box" id="Q_100" onclick="func_toggle('Q_100')">   an   </span>                
+         
+        <span class="I_box" id="Q_101" onclick="func_toggle('Q_101')">  area  </span>                
+         
+        <span class="I_box" id="Q_102" onclick="func_toggle('Q_102')"> about  </span>                
+         
+        <span class="I_box" id="Q_103" onclick="func_toggle('Q_103')">  the   </span>                
+         
+        <span class="I_box" id="Q_104" onclick="func_toggle('Q_104')">  size  </span>                
+         
+        <span class="I_box" id="Q_105" onclick="func_toggle('Q_105')">   of   </span>                
+         
+        <span class="I_box" id="Q_106" onclick="func_toggle('Q_106')">England </span>                
+        , 
+        <span class="I_box" id="Q_107" onclick="func_toggle('Q_107')">disappears</span>                
+        .</p>
+<p>
+</p>
+<p>
+
+        <span class="I_box" id="Q_108" onclick="func_toggle('Q_108')">  This  </span>                
+         
+        <span class="I_box" id="Q_109" onclick="func_toggle('Q_109')">  loss  </span>                
+         
+        <span class="I_box" id="Q_110" onclick="func_toggle('Q_110')">destroys</span>                
+         
+        <span class="I_box" id="Q_111" onclick="func_toggle('Q_111')">  the   </span>                
+         
+        <span class="I_box" id="Q_112" onclick="func_toggle('Q_112')">habitats</span>                
+         
+        <span class="I_box" id="Q_113" onclick="func_toggle('Q_113')">  for   </span>                
+         
+        <span class="I_box" id="Q_114" onclick="func_toggle('Q_114')">millions</span>                
+         
+        <span class="I_box" id="Q_115" onclick="func_toggle('Q_115')">   of   </span>                
+         
+        <span class="I_box" id="Q_116" onclick="func_toggle('Q_116')">species </span>                
+         
+        <span class="I_box" id="Q_117" onclick="func_toggle('Q_117')">  and   </span>                
+         
+        <span class="I_box" id="Q_118" onclick="func_toggle('Q_118')">  has   </span>                
+         
+        <span class="I_box" id="Q_119" onclick="func_toggle('Q_119')">   a    </span>                
+         
+        <span class="I_box" id="Q_120" onclick="func_toggle('Q_120')"> major  </span>                
+         
+        <span class="I_box" id="Q_121" onclick="func_toggle('Q_121')"> effect </span>                
+         
+        <span class="I_box" id="Q_122" onclick="func_toggle('Q_122')">   on   </span>                
+         
+        <span class="I_box" id="Q_123" onclick="func_toggle('Q_123')">  the   </span>                
+         
+        <span class="I_box" id="Q_124" onclick="func_toggle('Q_124')"> jungle </span>                
+        ’
+        <span class="I_box" id="Q_125" onclick="func_toggle('Q_125')">   s    </span>                
+         
+        <span class="I_box" id="Q_126" onclick="func_toggle('Q_126')">biodiversity</span>                
+        . 
+        <span class="I_box" id="Q_127" onclick="func_toggle('Q_127')">  Also  </span>                
+        , 
+        <span class="I_box" id="Q_128" onclick="func_toggle('Q_128')">   it   </span>                
+         
+        <span class="I_box" id="Q_129" onclick="func_toggle('Q_129')">increases</span>                
+         
+        <span class="I_box" id="Q_130" onclick="func_toggle('Q_130')">  the   </span>                
+         
+        <span class="I_box" id="Q_131" onclick="func_toggle('Q_131')"> amount </span>                
+         
+        <span class="I_box" id="Q_132" onclick="func_toggle('Q_132')">   of   </span>                
+         
+        <span class="I_box" id="Q_133" onclick="func_toggle('Q_133')">  CO²   </span>                
+         
+        <span class="I_box" id="Q_134" onclick="func_toggle('Q_134')">   in   </span>                
+         
+        <span class="I_box" id="Q_135" onclick="func_toggle('Q_135')">  the   </span>                
+         
+        <span class="I_box" id="Q_136" onclick="func_toggle('Q_136')">  air   </span>                
+        . 
+        <span class="I_box" id="Q_137" onclick="func_toggle('Q_137')">Destruction</span>                
+         
+        <span class="I_box" id="Q_138" onclick="func_toggle('Q_138')">   of   </span>                
+         
+        <span class="I_box" id="Q_139" onclick="func_toggle('Q_139')">  the   </span>                
+         
+        <span class="I_box" id="Q_140" onclick="func_toggle('Q_140')">rainforest</span>                
+         
+        <span class="I_box" id="Q_141" onclick="func_toggle('Q_141')">   is   </span>                
+         
+        <span class="I_box" id="Q_142" onclick="func_toggle('Q_142')"> caused </span>                
+         
+        <span class="I_box" id="Q_143" onclick="func_toggle('Q_143')">   by   </span>                
+         
+        <span class="I_box" id="Q_144" onclick="func_toggle('Q_144')">logging </span>                
+        , 
+        <span class="I_box" id="Q_145" onclick="func_toggle('Q_145')">farming </span>                
+        , 
+        <span class="I_box" id="Q_146" onclick="func_toggle('Q_146')"> mining </span>                
+        , 
+        <span class="I_box" id="Q_147" onclick="func_toggle('Q_147')">  and   </span>                
+         
+        <span class="I_box" id="Q_148" onclick="func_toggle('Q_148')"> other  </span>                
+         
+        <span class="I_box" id="Q_149" onclick="func_toggle('Q_149')"> human  </span>                
+         
+        <span class="I_box" id="Q_150" onclick="func_toggle('Q_150')">activities</span>                
+        . 
+        <span class="I_box" id="Q_151" onclick="func_toggle('Q_151')"> Among  </span>                
+         
+        <span class="I_box" id="Q_152" onclick="func_toggle('Q_152')"> these  </span>                
+        , 
+        <span class="I_box" id="Q_153" onclick="func_toggle('Q_153')">logging </span>                
+         
+        <span class="I_box" id="Q_154" onclick="func_toggle('Q_154')">   is   </span>                
+         
+        <span class="I_box" id="Q_155" onclick="func_toggle('Q_155')">  the   </span>                
+         
+        <span class="I_box" id="Q_156" onclick="func_toggle('Q_156')">  main  </span>                
+         
+        <span class="I_box" id="Q_157" onclick="func_toggle('Q_157')"> reason </span>                
+         
+        <span class="I_box" id="Q_158" onclick="func_toggle('Q_158')">  for   </span>                
+         
+        <span class="I_box" id="Q_159" onclick="func_toggle('Q_159')"> nature </span>                
+        ’
+        <span class="I_box" id="Q_160" onclick="func_toggle('Q_160')">   s    </span>                
+         
+        <span class="I_box" id="Q_161" onclick="func_toggle('Q_161')">  loss  </span>                
+        . 
+        <span class="I_box" id="Q_162" onclick="func_toggle('Q_162')">  Some  </span>                
+         
+        <span class="I_box" id="Q_163" onclick="func_toggle('Q_163')">   70   </span>                
+         
+        <span class="I_box" id="Q_164" onclick="func_toggle('Q_164')">   to   </span>                
+         
+        <span class="I_box" id="Q_165" onclick="func_toggle('Q_165')">   80   </span>                
+         
+        <span class="I_box" id="Q_166" onclick="func_toggle('Q_166')">percent </span>                
+         
+        <span class="I_box" id="Q_167" onclick="func_toggle('Q_167')">   of   </span>                
+         
+        <span class="I_box" id="Q_168" onclick="func_toggle('Q_168')">  the   </span>                
+         
+        <span class="I_box" id="Q_169" onclick="func_toggle('Q_169')">logging </span>                
+         
+        <span class="I_box" id="Q_170" onclick="func_toggle('Q_170')">   in   </span>                
+         
+        <span class="I_box" id="Q_171" onclick="func_toggle('Q_171')">  the   </span>                
+         
+        <span class="I_box" id="Q_172" onclick="func_toggle('Q_172')">rainforests</span>                
+         
+        <span class="I_box" id="Q_173" onclick="func_toggle('Q_173')">   is   </span>                
+         
+        <span class="I_box" id="Q_174" onclick="func_toggle('Q_174')">thought </span>                
+         
+        <span class="I_box" id="Q_175" onclick="func_toggle('Q_175')">   to   </span>                
+         
+        <span class="I_box" id="Q_176" onclick="func_toggle('Q_176')">   be   </span>                
+         
+        <span class="I_box" id="Q_177" onclick="func_toggle('Q_177')">illegal </span>                
+        . 
+        <span class="I_box" id="Q_178" onclick="func_toggle('Q_178')">   To   </span>                
+         
+        <span class="I_box" id="Q_179" onclick="func_toggle('Q_179')">address </span>                
+         
+        <span class="I_box" id="Q_180" onclick="func_toggle('Q_180')">  this  </span>                
+         
+        <span class="I_box" id="Q_181" onclick="func_toggle('Q_181')">problem </span>                
+        , 
+        <span class="I_box" id="Q_182" onclick="func_toggle('Q_182')">   a    </span>                
+         
+        <span class="I_box" id="Q_183" onclick="func_toggle('Q_183')"> young  </span>                
+         
+        <span class="I_box" id="Q_184" onclick="func_toggle('Q_184')">American</span>                
+         
+        <span class="I_box" id="Q_185" onclick="func_toggle('Q_185')">engineer</span>                
+         
+        <span class="I_box" id="Q_186" onclick="func_toggle('Q_186')">  has   </span>                
+         
+        <span class="I_box" id="Q_187" onclick="func_toggle('Q_187')">invented</span>                
+         
+        <span class="I_box" id="Q_188" onclick="func_toggle('Q_188')">   a    </span>                
+         
+        <span class="I_box" id="Q_189" onclick="func_toggle('Q_189')"> simple </span>                
+         
+        <span class="I_box" id="Q_190" onclick="func_toggle('Q_190')"> device </span>                
+         
+        <span class="I_box" id="Q_191" onclick="func_toggle('Q_191')">  that  </span>                
+         
+        <span class="I_box" id="Q_192" onclick="func_toggle('Q_192')">detects </span>                
+         
+        <span class="I_box" id="Q_193" onclick="func_toggle('Q_193')">illegal </span>                
+         
+        <span class="I_box" id="Q_194" onclick="func_toggle('Q_194')">logging </span>                
+         
+        <span class="I_box" id="Q_195" onclick="func_toggle('Q_195')">  the   </span>                
+         
+        <span class="I_box" id="Q_196" onclick="func_toggle('Q_196')"> moment </span>                
+         
+        <span class="I_box" id="Q_197" onclick="func_toggle('Q_197')">   it   </span>                
+         
+        <span class="I_box" id="Q_198" onclick="func_toggle('Q_198')"> occurs </span>                
+        .</p>
+<p>
+</p>
+<p>
+
+        <span class="I_box" id="Q_199" onclick="func_toggle('Q_199')">   It   </span>                
+         
+        <span class="I_box" id="Q_200" onclick="func_toggle('Q_200')">  all   </span>                
+         
+        <span class="I_box" id="Q_201" onclick="func_toggle('Q_201')">started </span>                
+         
+        <span class="I_box" id="Q_202" onclick="func_toggle('Q_202')">   in   </span>                
+         
+        <span class="I_box" id="Q_203" onclick="func_toggle('Q_203')">  2011  </span>                
+        , 
+        <span class="I_box" id="Q_204" onclick="func_toggle('Q_204')">  when  </span>                
+         
+        <span class="I_box" id="Q_205" onclick="func_toggle('Q_205')"> Topher </span>                
+         
+        <span class="I_box" id="Q_206" onclick="func_toggle('Q_206')"> White  </span>                
+         
+        <span class="I_box" id="Q_207" onclick="func_toggle('Q_207')">visited </span>                
+         
+        <span class="I_box" id="Q_208" onclick="func_toggle('Q_208')">Indonesia</span>                
+         
+        <span class="I_box" id="Q_209" onclick="func_toggle('Q_209')">   as   </span>                
+         
+        <span class="I_box" id="Q_210" onclick="func_toggle('Q_210')">   a    </span>                
+         
+        <span class="I_box" id="Q_211" onclick="func_toggle('Q_211')">volunteer</span>                
+        . 
+        <span class="I_box" id="Q_212" onclick="func_toggle('Q_212')">  One   </span>                
+         
+        <span class="I_box" id="Q_213" onclick="func_toggle('Q_213')">  day   </span>                
+        , 
+        <span class="I_box" id="Q_214" onclick="func_toggle('Q_214')">   he   </span>                
+         
+        <span class="I_box" id="Q_215" onclick="func_toggle('Q_215')">  and   </span>                
+         
+        <span class="I_box" id="Q_216" onclick="func_toggle('Q_216')">  some  </span>                
+         
+        <span class="I_box" id="Q_217" onclick="func_toggle('Q_217')">   of   </span>                
+         
+        <span class="I_box" id="Q_218" onclick="func_toggle('Q_218')">  the   </span>                
+         
+        <span class="I_box" id="Q_219" onclick="func_toggle('Q_219')"> other  </span>                
+         
+        <span class="I_box" id="Q_220" onclick="func_toggle('Q_220')">volunteers</span>                
+         
+        <span class="I_box" id="Q_221" onclick="func_toggle('Q_221')">  set   </span>                
+         
+        <span class="I_box" id="Q_222" onclick="func_toggle('Q_222')">  out   </span>                
+         
+        <span class="I_box" id="Q_223" onclick="func_toggle('Q_223')">  from  </span>                
+         
+        <span class="I_box" id="Q_224" onclick="func_toggle('Q_224')">  the   </span>                
+         
+        <span class="I_box" id="Q_225" onclick="func_toggle('Q_225')"> ranger </span>                
+         
+        <span class="I_box" id="Q_226" onclick="func_toggle('Q_226')">station </span>                
+         
+        <span class="I_box" id="Q_227" onclick="func_toggle('Q_227')">   on   </span>                
+         
+        <span class="I_box" id="Q_228" onclick="func_toggle('Q_228')">   a    </span>                
+         
+        <span class="I_box" id="Q_229" onclick="func_toggle('Q_229')">  walk  </span>                
+         
+        <span class="I_box" id="Q_230" onclick="func_toggle('Q_230')">  into  </span>                
+         
+        <span class="I_box" id="Q_231" onclick="func_toggle('Q_231')">   a    </span>                
+         
+        <span class="I_box" id="Q_232" onclick="func_toggle('Q_232')">protected</span>                
+         
+        <span class="I_box" id="Q_233" onclick="func_toggle('Q_233')">rainforest</span>                
+        . 
+        <span class="I_box" id="Q_234" onclick="func_toggle('Q_234')"> After  </span>                
+         
+        <span class="I_box" id="Q_235" onclick="func_toggle('Q_235')">walking </span>                
+         
+        <span class="I_box" id="Q_236" onclick="func_toggle('Q_236')">  only  </span>                
+         
+        <span class="I_box" id="Q_237" onclick="func_toggle('Q_237')">  five  </span>                
+         
+        <span class="I_box" id="Q_238" onclick="func_toggle('Q_238')">minutes </span>                
+        , 
+        <span class="I_box" id="Q_239" onclick="func_toggle('Q_239')">  his   </span>                
+         
+        <span class="I_box" id="Q_240" onclick="func_toggle('Q_240')"> group  </span>                
+         
+        <span class="I_box" id="Q_241" onclick="func_toggle('Q_241')">  came  </span>                
+         
+        <span class="I_box" id="Q_242" onclick="func_toggle('Q_242')">  upon  </span>                
+         
+        <span class="I_box" id="Q_243" onclick="func_toggle('Q_243')"> people </span>                
+         
+        <span class="I_box" id="Q_244" onclick="func_toggle('Q_244')">  who   </span>                
+         
+        <span class="I_box" id="Q_245" onclick="func_toggle('Q_245')">  were  </span>                
+         
+        <span class="I_box" id="Q_246" onclick="func_toggle('Q_246')">cutting </span>                
+         
+        <span class="I_box" id="Q_247" onclick="func_toggle('Q_247')">  down  </span>                
+         
+        <span class="I_box" id="Q_248" onclick="func_toggle('Q_248')"> trees  </span>                
+         
+        <span class="I_box" id="Q_249" onclick="func_toggle('Q_249')">illegally</span>                
+        . 
+        <span class="I_box" id="Q_250" onclick="func_toggle('Q_250')">  The   </span>                
+         
+        <span class="I_box" id="Q_251" onclick="func_toggle('Q_251')">surprised</span>                
+         
+        <span class="I_box" id="Q_252" onclick="func_toggle('Q_252')">loggers </span>                
+         
+        <span class="I_box" id="Q_253" onclick="func_toggle('Q_253')">  fled  </span>                
+        , 
+        <span class="I_box" id="Q_254" onclick="func_toggle('Q_254')">  but   </span>                
+         
+        <span class="I_box" id="Q_255" onclick="func_toggle('Q_255')"> White  </span>                
+         
+        <span class="I_box" id="Q_256" onclick="func_toggle('Q_256')">  was   </span>                
+         
+        <span class="I_box" id="Q_257" onclick="func_toggle('Q_257')">shocked </span>                
+        . 
+        <span class="I_box" id="Q_258" onclick="func_toggle('Q_258')">Despite </span>                
+         
+        <span class="I_box" id="Q_259" onclick="func_toggle('Q_259')">  the   </span>                
+         
+        <span class="I_box" id="Q_260" onclick="func_toggle('Q_260')">  fact  </span>                
+         
+        <span class="I_box" id="Q_261" onclick="func_toggle('Q_261')">  that  </span>                
+         
+        <span class="I_box" id="Q_262" onclick="func_toggle('Q_262')">  they  </span>                
+         
+        <span class="I_box" id="Q_263" onclick="func_toggle('Q_263')">  were  </span>                
+         
+        <span class="I_box" id="Q_264" onclick="func_toggle('Q_264')"> still  </span>                
+         
+        <span class="I_box" id="Q_265" onclick="func_toggle('Q_265')"> fairly </span>                
+         
+        <span class="I_box" id="Q_266" onclick="func_toggle('Q_266')"> close  </span>                
+         
+        <span class="I_box" id="Q_267" onclick="func_toggle('Q_267')">   to   </span>                
+         
+        <span class="I_box" id="Q_268" onclick="func_toggle('Q_268')">  the   </span>                
+         
+        <span class="I_box" id="Q_269" onclick="func_toggle('Q_269')"> ranger </span>                
+         
+        <span class="I_box" id="Q_270" onclick="func_toggle('Q_270')">station </span>                
+        , 
+        <span class="I_box" id="Q_271" onclick="func_toggle('Q_271')">   it   </span>                
+         
+        <span class="I_box" id="Q_272" onclick="func_toggle('Q_272')">  had   </span>                
+         
+        <span class="I_box" id="Q_273" onclick="func_toggle('Q_273')">  been  </span>                
+         
+        <span class="I_box" id="Q_274" onclick="func_toggle('Q_274')">impossible</span>                
+         
+        <span class="I_box" id="Q_275" onclick="func_toggle('Q_275')">   to   </span>                
+         
+        <span class="I_box" id="Q_276" onclick="func_toggle('Q_276')">  hear  </span>                
+         
+        <span class="I_box" id="Q_277" onclick="func_toggle('Q_277')">anything</span>                
+         
+        <span class="I_box" id="Q_278" onclick="func_toggle('Q_278')">  from  </span>                
+         
+        <span class="I_box" id="Q_279" onclick="func_toggle('Q_279')">  back  </span>                
+         
+        <span class="I_box" id="Q_280" onclick="func_toggle('Q_280')"> there  </span>                
+        . 
+        <span class="I_box" id="Q_281" onclick="func_toggle('Q_281')">   It   </span>                
+         
+        <span class="I_box" id="Q_282" onclick="func_toggle('Q_282')">   is   </span>                
+         
+        <span class="I_box" id="Q_283" onclick="func_toggle('Q_283')">because </span>                
+         
+        <span class="I_box" id="Q_284" onclick="func_toggle('Q_284')">  the   </span>                
+         
+        <span class="I_box" id="Q_285" onclick="func_toggle('Q_285')"> forest </span>                
+         
+        <span class="I_box" id="Q_286" onclick="func_toggle('Q_286')">  was   </span>                
+         
+        <span class="I_box" id="Q_287" onclick="func_toggle('Q_287')">   so   </span>                
+         
+        <span class="I_box" id="Q_288" onclick="func_toggle('Q_288')">  full  </span>                
+         
+        <span class="I_box" id="Q_289" onclick="func_toggle('Q_289')">   of   </span>                
+         
+        <span class="I_box" id="Q_290" onclick="func_toggle('Q_290')"> other  </span>                
+         
+        <span class="I_box" id="Q_291" onclick="func_toggle('Q_291')"> sounds </span>                
+        .</p>
+<p>
+</p>
+<p>
+
+        <span class="I_box" id="Q_292" onclick="func_toggle('Q_292')"> White  </span>                
+         
+        <span class="I_box" id="Q_293" onclick="func_toggle('Q_293')">started </span>                
+         
+        <span class="I_box" id="Q_294" onclick="func_toggle('Q_294')">thinking</span>                
+         
+        <span class="I_box" id="Q_295" onclick="func_toggle('Q_295')"> about  </span>                
+         
+        <span class="I_box" id="Q_296" onclick="func_toggle('Q_296')">  ways  </span>                
+         
+        <span class="I_box" id="Q_297" onclick="func_toggle('Q_297')">   to   </span>                
+         
+        <span class="I_box" id="Q_298" onclick="func_toggle('Q_298')">  help  </span>                
+        . 
+        <span class="I_box" id="Q_299" onclick="func_toggle('Q_299')">   He   </span>                
+         
+        <span class="I_box" id="Q_300" onclick="func_toggle('Q_300')">  knew  </span>                
+         
+        <span class="I_box" id="Q_301" onclick="func_toggle('Q_301')">  that  </span>                
+         
+        <span class="I_box" id="Q_302" onclick="func_toggle('Q_302')">  even  </span>                
+         
+        <span class="I_box" id="Q_303" onclick="func_toggle('Q_303')">   in   </span>                
+         
+        <span class="I_box" id="Q_304" onclick="func_toggle('Q_304')">  the   </span>                
+         
+        <span class="I_box" id="Q_305" onclick="func_toggle('Q_305')"> jungle </span>                
+        , 
+        <span class="I_box" id="Q_306" onclick="func_toggle('Q_306')">  far   </span>                
+         
+        <span class="I_box" id="Q_307" onclick="func_toggle('Q_307')">  from  </span>                
+         
+        <span class="I_box" id="Q_308" onclick="func_toggle('Q_308')">  the   </span>                
+         
+        <span class="I_box" id="Q_309" onclick="func_toggle('Q_309')">  city  </span>                
+        , 
+        <span class="I_box" id="Q_310" onclick="func_toggle('Q_310')"> there  </span>                
+         
+        <span class="I_box" id="Q_311" onclick="func_toggle('Q_311')">  was   </span>                
+         
+        <span class="I_box" id="Q_312" onclick="func_toggle('Q_312')">  good  </span>                
+         
+        <span class="I_box" id="Q_313" onclick="func_toggle('Q_313')">  cell  </span>                
+         
+        <span class="I_box" id="Q_314" onclick="func_toggle('Q_314')"> phone  </span>                
+         
+        <span class="I_box" id="Q_315" onclick="func_toggle('Q_315')">service </span>                
+        . 
+        <span class="I_box" id="Q_316" onclick="func_toggle('Q_316')">   He   </span>                
+         
+        <span class="I_box" id="Q_317" onclick="func_toggle('Q_317')">thought </span>                
+         
+        <span class="I_box" id="Q_318" onclick="func_toggle('Q_318')">  that  </span>                
+         
+        <span class="I_box" id="Q_319" onclick="func_toggle('Q_319')">perhaps </span>                
+         
+        <span class="I_box" id="Q_320" onclick="func_toggle('Q_320')">  cell  </span>                
+         
+        <span class="I_box" id="Q_321" onclick="func_toggle('Q_321')"> phone  </span>                
+         
+        <span class="I_box" id="Q_322" onclick="func_toggle('Q_322')">technology</span>                
+         
+        <span class="I_box" id="Q_323" onclick="func_toggle('Q_323')"> could  </span>                
+         
+        <span class="I_box" id="Q_324" onclick="func_toggle('Q_324')"> solve  </span>                
+         
+        <span class="I_box" id="Q_325" onclick="func_toggle('Q_325')">  the   </span>                
+         
+        <span class="I_box" id="Q_326" onclick="func_toggle('Q_326')">problem </span>                
+        . 
+        <span class="I_box" id="Q_327" onclick="func_toggle('Q_327')"> After  </span>                
+         
+        <span class="I_box" id="Q_328" onclick="func_toggle('Q_328')">   he   </span>                
+         
+        <span class="I_box" id="Q_329" onclick="func_toggle('Q_329')">returned</span>                
+         
+        <span class="I_box" id="Q_330" onclick="func_toggle('Q_330')">  home  </span>                
+         
+        <span class="I_box" id="Q_331" onclick="func_toggle('Q_331')">   to   </span>                
+         
+        <span class="I_box" id="Q_332" onclick="func_toggle('Q_332')">  the   </span>                
+         
+        <span class="I_box" id="Q_333" onclick="func_toggle('Q_333')">   U    </span>                
+        .
+        <span class="I_box" id="Q_334" onclick="func_toggle('Q_334')">   S    </span>                
+        ., 
+        <span class="I_box" id="Q_335" onclick="func_toggle('Q_335')">   in   </span>                
+         
+        <span class="I_box" id="Q_336" onclick="func_toggle('Q_336')">  his   </span>                
+         
+        <span class="I_box" id="Q_337" onclick="func_toggle('Q_337')"> father </span>                
+        ’
+        <span class="I_box" id="Q_338" onclick="func_toggle('Q_338')">   s    </span>                
+         
+        <span class="I_box" id="Q_339" onclick="func_toggle('Q_339')"> garage </span>                
+         
+        <span class="I_box" id="Q_340" onclick="func_toggle('Q_340')">   he   </span>                
+         
+        <span class="I_box" id="Q_341" onclick="func_toggle('Q_341')">developed</span>                
+         
+        <span class="I_box" id="Q_342" onclick="func_toggle('Q_342')">   a    </span>                
+         
+        <span class="I_box" id="Q_343" onclick="func_toggle('Q_343')"> small  </span>                
+         
+        <span class="I_box" id="Q_344" onclick="func_toggle('Q_344')">listening</span>                
+         
+        <span class="I_box" id="Q_345" onclick="func_toggle('Q_345')"> device </span>                
+         
+        <span class="I_box" id="Q_346" onclick="func_toggle('Q_346')"> using  </span>                
+         
+        <span class="I_box" id="Q_347" onclick="func_toggle('Q_347')">   an   </span>                
+         
+        <span class="I_box" id="Q_348" onclick="func_toggle('Q_348')">  old   </span>                
+         
+        <span class="I_box" id="Q_349" onclick="func_toggle('Q_349')">  cell  </span>                
+         
+        <span class="I_box" id="Q_350" onclick="func_toggle('Q_350')"> phone  </span>                
+        . 
+        <span class="I_box" id="Q_351" onclick="func_toggle('Q_351')">   He   </span>                
+         
+        <span class="I_box" id="Q_352" onclick="func_toggle('Q_352')">attached</span>                
+         
+        <span class="I_box" id="Q_353" onclick="func_toggle('Q_353')">   a    </span>                
+         
+        <span class="I_box" id="Q_354" onclick="func_toggle('Q_354')">sensitive</span>                
+         
+        <span class="I_box" id="Q_355" onclick="func_toggle('Q_355')">microphone</span>                
+         
+        <span class="I_box" id="Q_356" onclick="func_toggle('Q_356')">   to   </span>                
+         
+        <span class="I_box" id="Q_357" onclick="func_toggle('Q_357')">  the   </span>                
+         
+        <span class="I_box" id="Q_358" onclick="func_toggle('Q_358')">  cell  </span>                
+         
+        <span class="I_box" id="Q_359" onclick="func_toggle('Q_359')"> phone  </span>                
+         
+        <span class="I_box" id="Q_360" onclick="func_toggle('Q_360')">   so   </span>                
+         
+        <span class="I_box" id="Q_361" onclick="func_toggle('Q_361')">  that  </span>                
+         
+        <span class="I_box" id="Q_362" onclick="func_toggle('Q_362')">   it   </span>                
+         
+        <span class="I_box" id="Q_363" onclick="func_toggle('Q_363')"> could  </span>                
+         
+        <span class="I_box" id="Q_364" onclick="func_toggle('Q_364')"> detect </span>                
+         
+        <span class="I_box" id="Q_365" onclick="func_toggle('Q_365')">chainsaw</span>                
+         
+        <span class="I_box" id="Q_366" onclick="func_toggle('Q_366')"> noise  </span>                
+         
+        <span class="I_box" id="Q_367" onclick="func_toggle('Q_367')">  from  </span>                
+         
+        <span class="I_box" id="Q_368" onclick="func_toggle('Q_368')">   up   </span>                
+         
+        <span class="I_box" id="Q_369" onclick="func_toggle('Q_369')">   to   </span>                
+         
+        <span class="I_box" id="Q_370" onclick="func_toggle('Q_370')"> three  </span>                
+         
+        <span class="I_box" id="Q_371" onclick="func_toggle('Q_371')">kilometers</span>                
+         
+        <span class="I_box" id="Q_372" onclick="func_toggle('Q_372')">  away  </span>                
+        . 
+        <span class="I_box" id="Q_373" onclick="func_toggle('Q_373')">  This  </span>                
+         
+        <span class="I_box" id="Q_374" onclick="func_toggle('Q_374')"> device </span>                
+         
+        <span class="I_box" id="Q_375" onclick="func_toggle('Q_375')"> would  </span>                
+         
+        <span class="I_box" id="Q_376" onclick="func_toggle('Q_376')">   be   </span>                
+         
+        <span class="I_box" id="Q_377" onclick="func_toggle('Q_377')"> placed </span>                
+         
+        <span class="I_box" id="Q_378" onclick="func_toggle('Q_378')">  high  </span>                
+         
+        <span class="I_box" id="Q_379" onclick="func_toggle('Q_379')">   up   </span>                
+         
+        <span class="I_box" id="Q_380" onclick="func_toggle('Q_380')">   in   </span>                
+         
+        <span class="I_box" id="Q_381" onclick="func_toggle('Q_381')">   a    </span>                
+         
+        <span class="I_box" id="Q_382" onclick="func_toggle('Q_382')">  tree  </span>                
+        . 
+        <span class="I_box" id="Q_383" onclick="func_toggle('Q_383')">  When  </span>                
+         
+        <span class="I_box" id="Q_384" onclick="func_toggle('Q_384')">   it   </span>                
+         
+        <span class="I_box" id="Q_385" onclick="func_toggle('Q_385')"> picked </span>                
+         
+        <span class="I_box" id="Q_386" onclick="func_toggle('Q_386')">   up   </span>                
+         
+        <span class="I_box" id="Q_387" onclick="func_toggle('Q_387')">  the   </span>                
+         
+        <span class="I_box" id="Q_388" onclick="func_toggle('Q_388')">  buzz  </span>                
+         
+        <span class="I_box" id="Q_389" onclick="func_toggle('Q_389')">   of   </span>                
+         
+        <span class="I_box" id="Q_390" onclick="func_toggle('Q_390')">   a    </span>                
+         
+        <span class="I_box" id="Q_391" onclick="func_toggle('Q_391')">  saw   </span>                
+        , 
+        <span class="I_box" id="Q_392" onclick="func_toggle('Q_392')">   it   </span>                
+         
+        <span class="I_box" id="Q_393" onclick="func_toggle('Q_393')"> would  </span>                
+         
+        <span class="I_box" id="Q_394" onclick="func_toggle('Q_394')">  send  </span>                
+         
+        <span class="I_box" id="Q_395" onclick="func_toggle('Q_395')">   a    </span>                
+         
+        <span class="I_box" id="Q_396" onclick="func_toggle('Q_396')">message </span>                
+         
+        <span class="I_box" id="Q_397" onclick="func_toggle('Q_397')">   to   </span>                
+         
+        <span class="I_box" id="Q_398" onclick="func_toggle('Q_398')">   a    </span>                
+         
+        <span class="I_box" id="Q_399" onclick="func_toggle('Q_399')"> ranger </span>                
+        ’
+        <span class="I_box" id="Q_400" onclick="func_toggle('Q_400')">   s    </span>                
+         
+        <span class="I_box" id="Q_401" onclick="func_toggle('Q_401')">  cell  </span>                
+         
+        <span class="I_box" id="Q_402" onclick="func_toggle('Q_402')"> phone  </span>                
+        .</p>
+<p>
+</p>
+<p>
+
+        <span class="I_box" id="Q_403" onclick="func_toggle('Q_403')"> White  </span>                
+         
+        <span class="I_box" id="Q_404" onclick="func_toggle('Q_404')">  knew  </span>                
+         
+        <span class="I_box" id="Q_405" onclick="func_toggle('Q_405')">  that  </span>                
+         
+        <span class="I_box" id="Q_406" onclick="func_toggle('Q_406')">   he   </span>                
+         
+        <span class="I_box" id="Q_407" onclick="func_toggle('Q_407')">  had   </span>                
+         
+        <span class="I_box" id="Q_408" onclick="func_toggle('Q_408')">   to   </span>                
+         
+        <span class="I_box" id="Q_409" onclick="func_toggle('Q_409')">protect </span>                
+         
+        <span class="I_box" id="Q_410" onclick="func_toggle('Q_410')">  the   </span>                
+         
+        <span class="I_box" id="Q_411" onclick="func_toggle('Q_411')">  cell  </span>                
+         
+        <span class="I_box" id="Q_412" onclick="func_toggle('Q_412')"> phone  </span>                
+         
+        <span class="I_box" id="Q_413" onclick="func_toggle('Q_413')">   so   </span>                
+         
+        <span class="I_box" id="Q_414" onclick="func_toggle('Q_414')">  that  </span>                
+         
+        <span class="I_box" id="Q_415" onclick="func_toggle('Q_415')">   it   </span>                
+         
+        <span class="I_box" id="Q_416" onclick="func_toggle('Q_416')"> could  </span>                
+         
+        <span class="I_box" id="Q_417" onclick="func_toggle('Q_417')">survive </span>                
+         
+        <span class="I_box" id="Q_418" onclick="func_toggle('Q_418')">   in   </span>                
+         
+        <span class="I_box" id="Q_419" onclick="func_toggle('Q_419')">  the   </span>                
+         
+        <span class="I_box" id="Q_420" onclick="func_toggle('Q_420')">  hot   </span>                
+         
+        <span class="I_box" id="Q_421" onclick="func_toggle('Q_421')">  and   </span>                
+         
+        <span class="I_box" id="Q_422" onclick="func_toggle('Q_422')">  wet   </span>                
+         
+        <span class="I_box" id="Q_423" onclick="func_toggle('Q_423')">rainforest</span>                
+         
+        <span class="I_box" id="Q_424" onclick="func_toggle('Q_424')">environment</span>                
+        . 
+        <span class="I_box" id="Q_425" onclick="func_toggle('Q_425')">  His   </span>                
+         
+        <span class="I_box" id="Q_426" onclick="func_toggle('Q_426')">solution</span>                
+         
+        <span class="I_box" id="Q_427" onclick="func_toggle('Q_427')">  was   </span>                
+         
+        <span class="I_box" id="Q_428" onclick="func_toggle('Q_428')">   to   </span>                
+         
+        <span class="I_box" id="Q_429" onclick="func_toggle('Q_429')">  put   </span>                
+         
+        <span class="I_box" id="Q_430" onclick="func_toggle('Q_430')">  the   </span>                
+         
+        <span class="I_box" id="Q_431" onclick="func_toggle('Q_431')"> phone  </span>                
+         
+        <span class="I_box" id="Q_432" onclick="func_toggle('Q_432')">   in   </span>                
+         
+        <span class="I_box" id="Q_433" onclick="func_toggle('Q_433')">   a    </span>                
+         
+        <span class="I_box" id="Q_434" onclick="func_toggle('Q_434')">plastic </span>                
+         
+        <span class="I_box" id="Q_435" onclick="func_toggle('Q_435')">  box   </span>                
+        . 
+        <span class="I_box" id="Q_436" onclick="func_toggle('Q_436')"> Since  </span>                
+         
+        <span class="I_box" id="Q_437" onclick="func_toggle('Q_437')"> there  </span>                
+         
+        <span class="I_box" id="Q_438" onclick="func_toggle('Q_438')">  was   </span>                
+         
+        <span class="I_box" id="Q_439" onclick="func_toggle('Q_439')">   no   </span>                
+         
+        <span class="I_box" id="Q_440" onclick="func_toggle('Q_440')">electricity</span>                
+         
+        <span class="I_box" id="Q_441" onclick="func_toggle('Q_441')"> where  </span>                
+         
+        <span class="I_box" id="Q_442" onclick="func_toggle('Q_442')">  the   </span>                
+         
+        <span class="I_box" id="Q_443" onclick="func_toggle('Q_443')"> phone  </span>                
+         
+        <span class="I_box" id="Q_444" onclick="func_toggle('Q_444')"> needed </span>                
+         
+        <span class="I_box" id="Q_445" onclick="func_toggle('Q_445')">   to   </span>                
+         
+        <span class="I_box" id="Q_446" onclick="func_toggle('Q_446')">   be   </span>                
+         
+        <span class="I_box" id="Q_447" onclick="func_toggle('Q_447')"> placed </span>                
+        , 
+        <span class="I_box" id="Q_448" onclick="func_toggle('Q_448')">  the   </span>                
+         
+        <span class="I_box" id="Q_449" onclick="func_toggle('Q_449')"> device </span>                
+         
+        <span class="I_box" id="Q_450" onclick="func_toggle('Q_450')">  had   </span>                
+         
+        <span class="I_box" id="Q_451" onclick="func_toggle('Q_451')">   to   </span>                
+         
+        <span class="I_box" id="Q_452" onclick="func_toggle('Q_452')">   be   </span>                
+         
+        <span class="I_box" id="Q_453" onclick="func_toggle('Q_453')">  able  </span>                
+         
+        <span class="I_box" id="Q_454" onclick="func_toggle('Q_454')">   to   </span>                
+         
+        <span class="I_box" id="Q_455" onclick="func_toggle('Q_455')"> power  </span>                
+         
+        <span class="I_box" id="Q_456" onclick="func_toggle('Q_456')"> itself </span>                
+        . 
+        <span class="I_box" id="Q_457" onclick="func_toggle('Q_457')"> White  </span>                
+         
+        <span class="I_box" id="Q_458" onclick="func_toggle('Q_458')">attached</span>                
+         
+        <span class="I_box" id="Q_459" onclick="func_toggle('Q_459')"> solar  </span>                
+         
+        <span class="I_box" id="Q_460" onclick="func_toggle('Q_460')"> panels </span>                
+         
+        <span class="I_box" id="Q_461" onclick="func_toggle('Q_461')">   to   </span>                
+         
+        <span class="I_box" id="Q_462" onclick="func_toggle('Q_462')">  the   </span>                
+         
+        <span class="I_box" id="Q_463" onclick="func_toggle('Q_463')">  cell  </span>                
+         
+        <span class="I_box" id="Q_464" onclick="func_toggle('Q_464')"> phone  </span>                
+        . 
+        <span class="I_box" id="Q_465" onclick="func_toggle('Q_465')">   He   </span>                
+         
+        <span class="I_box" id="Q_466" onclick="func_toggle('Q_466')">  was   </span>                
+         
+        <span class="I_box" id="Q_467" onclick="func_toggle('Q_467')">  sure  </span>                
+         
+        <span class="I_box" id="Q_468" onclick="func_toggle('Q_468')">  that  </span>                
+         
+        <span class="I_box" id="Q_469" onclick="func_toggle('Q_469')">  the   </span>                
+         
+        <span class="I_box" id="Q_470" onclick="func_toggle('Q_470')"> panels </span>                
+         
+        <span class="I_box" id="Q_471" onclick="func_toggle('Q_471')"> would  </span>                
+         
+        <span class="I_box" id="Q_472" onclick="func_toggle('Q_472')">  work  </span>                
+        , 
+        <span class="I_box" id="Q_473" onclick="func_toggle('Q_473')">  even  </span>                
+         
+        <span class="I_box" id="Q_474" onclick="func_toggle('Q_474')"> under  </span>                
+         
+        <span class="I_box" id="Q_475" onclick="func_toggle('Q_475')">  the   </span>                
+         
+        <span class="I_box" id="Q_476" onclick="func_toggle('Q_476')"> shade  </span>                
+         
+        <span class="I_box" id="Q_477" onclick="func_toggle('Q_477')">   of   </span>                
+         
+        <span class="I_box" id="Q_478" onclick="func_toggle('Q_478')">  the   </span>                
+         
+        <span class="I_box" id="Q_479" onclick="func_toggle('Q_479')"> thick  </span>                
+         
+        <span class="I_box" id="Q_480" onclick="func_toggle('Q_480')">  tree  </span>                
+         
+        <span class="I_box" id="Q_481" onclick="func_toggle('Q_481')"> leaves </span>                
+        .</p>
+<p>
+</p>
+<p>
+
+        <span class="I_box" id="Q_482" onclick="func_toggle('Q_482')"> White  </span>                
+         
+        <span class="I_box" id="Q_483" onclick="func_toggle('Q_483')">returned</span>                
+         
+        <span class="I_box" id="Q_484" onclick="func_toggle('Q_484')">   to   </span>                
+         
+        <span class="I_box" id="Q_485" onclick="func_toggle('Q_485')">Indonesia</span>                
+         
+        <span class="I_box" id="Q_486" onclick="func_toggle('Q_486')">   to   </span>                
+         
+        <span class="I_box" id="Q_487" onclick="func_toggle('Q_487')">  test  </span>                
+         
+        <span class="I_box" id="Q_488" onclick="func_toggle('Q_488')">  the   </span>                
+         
+        <span class="I_box" id="Q_489" onclick="func_toggle('Q_489')"> device </span>                
+        . 
+        <span class="I_box" id="Q_490" onclick="func_toggle('Q_490')">Surprisingly</span>                
+        , 
+        <span class="I_box" id="Q_491" onclick="func_toggle('Q_491')">   on   </span>                
+         
+        <span class="I_box" id="Q_492" onclick="func_toggle('Q_492')">  only  </span>                
+         
+        <span class="I_box" id="Q_493" onclick="func_toggle('Q_493')">  the   </span>                
+         
+        <span class="I_box" id="Q_494" onclick="func_toggle('Q_494')"> second </span>                
+         
+        <span class="I_box" id="Q_495" onclick="func_toggle('Q_495')">  day   </span>                
+         
+        <span class="I_box" id="Q_496" onclick="func_toggle('Q_496')"> after  </span>                
+         
+        <span class="I_box" id="Q_497" onclick="func_toggle('Q_497')">   he   </span>                
+         
+        <span class="I_box" id="Q_498" onclick="func_toggle('Q_498')">installed</span>                
+         
+        <span class="I_box" id="Q_499" onclick="func_toggle('Q_499')">  the   </span>                
+         
+        <span class="I_box" id="Q_500" onclick="func_toggle('Q_500')"> device </span>                
+        , 
+        <span class="I_box" id="Q_501" onclick="func_toggle('Q_501')">   it   </span>                
+         
+        <span class="I_box" id="Q_502" onclick="func_toggle('Q_502')"> picked </span>                
+         
+        <span class="I_box" id="Q_503" onclick="func_toggle('Q_503')">   up   </span>                
+         
+        <span class="I_box" id="Q_504" onclick="func_toggle('Q_504')">chainsaw</span>                
+         
+        <span class="I_box" id="Q_505" onclick="func_toggle('Q_505')"> noises </span>                
+        . 
+        <span class="I_box" id="Q_506" onclick="func_toggle('Q_506')">   An   </span>                
+         
+        <span class="I_box" id="Q_507" onclick="func_toggle('Q_507')"> alert  </span>                
+         
+        <span class="I_box" id="Q_508" onclick="func_toggle('Q_508')">message </span>                
+         
+        <span class="I_box" id="Q_509" onclick="func_toggle('Q_509')">  was   </span>                
+         
+        <span class="I_box" id="Q_510" onclick="func_toggle('Q_510')">immediately</span>                
+         
+        <span class="I_box" id="Q_511" onclick="func_toggle('Q_511')">  sent  </span>                
+         
+        <span class="I_box" id="Q_512" onclick="func_toggle('Q_512')">   to   </span>                
+         
+        <span class="I_box" id="Q_513" onclick="func_toggle('Q_513')"> White  </span>                
+         
+        <span class="I_box" id="Q_514" onclick="func_toggle('Q_514')">  and   </span>                
+         
+        <span class="I_box" id="Q_515" onclick="func_toggle('Q_515')">  the   </span>                
+         
+        <span class="I_box" id="Q_516" onclick="func_toggle('Q_516')"> forest </span>                
+         
+        <span class="I_box" id="Q_517" onclick="func_toggle('Q_517')">rangers </span>                
+        . 
+        <span class="I_box" id="Q_518" onclick="func_toggle('Q_518')">  When  </span>                
+         
+        <span class="I_box" id="Q_519" onclick="func_toggle('Q_519')">  they  </span>                
+         
+        <span class="I_box" id="Q_520" onclick="func_toggle('Q_520')">approached</span>                
+         
+        <span class="I_box" id="Q_521" onclick="func_toggle('Q_521')">  the   </span>                
+         
+        <span class="I_box" id="Q_522" onclick="func_toggle('Q_522')">logging </span>                
+         
+        <span class="I_box" id="Q_523" onclick="func_toggle('Q_523')">  spot  </span>                
+        , 
+        <span class="I_box" id="Q_524" onclick="func_toggle('Q_524')">  the   </span>                
+         
+        <span class="I_box" id="Q_525" onclick="func_toggle('Q_525')">illegal </span>                
+         
+        <span class="I_box" id="Q_526" onclick="func_toggle('Q_526')">loggers </span>                
+         
+        <span class="I_box" id="Q_527" onclick="func_toggle('Q_527')">  ran   </span>                
+         
+        <span class="I_box" id="Q_528" onclick="func_toggle('Q_528')">  away  </span>                
+        .</p>
+<p>
+</p>
+<p>
+
+        <span class="I_box" id="Q_529" onclick="func_toggle('Q_529')"> White  </span>                
+         
+        <span class="I_box" id="Q_530" onclick="func_toggle('Q_530')">published</span>                
+         
+        <span class="I_box" id="Q_531" onclick="func_toggle('Q_531')">  his   </span>                
+         
+        <span class="I_box" id="Q_532" onclick="func_toggle('Q_532')"> story  </span>                
+         
+        <span class="I_box" id="Q_533" onclick="func_toggle('Q_533')">   on   </span>                
+         
+        <span class="I_box" id="Q_534" onclick="func_toggle('Q_534')">  the   </span>                
+         
+        <span class="I_box" id="Q_535" onclick="func_toggle('Q_535')">Internet</span>                
+         
+        <span class="I_box" id="Q_536" onclick="func_toggle('Q_536')">  and   </span>                
+         
+        <span class="I_box" id="Q_537" onclick="func_toggle('Q_537')">  word  </span>                
+         
+        <span class="I_box" id="Q_538" onclick="func_toggle('Q_538')">quickly </span>                
+         
+        <span class="I_box" id="Q_539" onclick="func_toggle('Q_539')"> spread </span>                
+        . 
+        <span class="I_box" id="Q_540" onclick="func_toggle('Q_540')"> People </span>                
+         
+        <span class="I_box" id="Q_541" onclick="func_toggle('Q_541')"> living </span>                
+         
+        <span class="I_box" id="Q_542" onclick="func_toggle('Q_542')">   in   </span>                
+         
+        <span class="I_box" id="Q_543" onclick="func_toggle('Q_543')"> other  </span>                
+         
+        <span class="I_box" id="Q_544" onclick="func_toggle('Q_544')">countries</span>                
+         
+        <span class="I_box" id="Q_545" onclick="func_toggle('Q_545')">contacted</span>                
+         
+        <span class="I_box" id="Q_546" onclick="func_toggle('Q_546')"> White  </span>                
+         
+        <span class="I_box" id="Q_547" onclick="func_toggle('Q_547')">  and   </span>                
+         
+        <span class="I_box" id="Q_548" onclick="func_toggle('Q_548')"> asked  </span>                
+         
+        <span class="I_box" id="Q_549" onclick="func_toggle('Q_549')">   if   </span>                
+         
+        <span class="I_box" id="Q_550" onclick="func_toggle('Q_550')">  they  </span>                
+         
+        <span class="I_box" id="Q_551" onclick="func_toggle('Q_551')"> could  </span>                
+         
+        <span class="I_box" id="Q_552" onclick="func_toggle('Q_552')">  use   </span>                
+         
+        <span class="I_box" id="Q_553" onclick="func_toggle('Q_553')">  the   </span>                
+         
+        <span class="I_box" id="Q_554" onclick="func_toggle('Q_554')"> device </span>                
+        . 
+        <span class="I_box" id="Q_555" onclick="func_toggle('Q_555')"> Others </span>                
+        , 
+        <span class="I_box" id="Q_556" onclick="func_toggle('Q_556')">  from  </span>                
+         
+        <span class="I_box" id="Q_557" onclick="func_toggle('Q_557')"> around </span>                
+         
+        <span class="I_box" id="Q_558" onclick="func_toggle('Q_558')">  the   </span>                
+         
+        <span class="I_box" id="Q_559" onclick="func_toggle('Q_559')"> world  </span>                
+        , 
+        <span class="I_box" id="Q_560" onclick="func_toggle('Q_560')">started </span>                
+         
+        <span class="I_box" id="Q_561" onclick="func_toggle('Q_561')">sending </span>                
+         
+        <span class="I_box" id="Q_562" onclick="func_toggle('Q_562')">  him   </span>                
+         
+        <span class="I_box" id="Q_563" onclick="func_toggle('Q_563')"> their  </span>                
+         
+        <span class="I_box" id="Q_564" onclick="func_toggle('Q_564')">  old   </span>                
+         
+        <span class="I_box" id="Q_565" onclick="func_toggle('Q_565')">  cell  </span>                
+         
+        <span class="I_box" id="Q_566" onclick="func_toggle('Q_566')"> phones </span>                
+         
+        <span class="I_box" id="Q_567" onclick="func_toggle('Q_567')">   so   </span>                
+         
+        <span class="I_box" id="Q_568" onclick="func_toggle('Q_568')">   he   </span>                
+         
+        <span class="I_box" id="Q_569" onclick="func_toggle('Q_569')"> could  </span>                
+         
+        <span class="I_box" id="Q_570" onclick="func_toggle('Q_570')"> build  </span>                
+         
+        <span class="I_box" id="Q_571" onclick="func_toggle('Q_571')">  more  </span>                
+         
+        <span class="I_box" id="Q_572" onclick="func_toggle('Q_572')">devices </span>                
+        . 
+        <span class="I_box" id="Q_573" onclick="func_toggle('Q_573')"> These  </span>                
+         
+        <span class="I_box" id="Q_574" onclick="func_toggle('Q_574')">devices </span>                
+        , 
+        <span class="I_box" id="Q_575" onclick="func_toggle('Q_575')"> called </span>                
+         
+        <span class="I_box" id="Q_576" onclick="func_toggle('Q_576')">Rainforest</span>                
+         
+        <span class="I_box" id="Q_577" onclick="func_toggle('Q_577')">Connection</span>                
+         (
+        <span class="I_box" id="Q_578" onclick="func_toggle('Q_578')">  RFCx  </span>                
+        ), 
+        <span class="I_box" id="Q_579" onclick="func_toggle('Q_579')">  are   </span>                
+         
+        <span class="I_box" id="Q_580" onclick="func_toggle('Q_580')">  now   </span>                
+         
+        <span class="I_box" id="Q_581" onclick="func_toggle('Q_581')"> being  </span>                
+         
+        <span class="I_box" id="Q_582" onclick="func_toggle('Q_582')">  used  </span>                
+         
+        <span class="I_box" id="Q_583" onclick="func_toggle('Q_583')">   in   </span>                
+         
+        <span class="I_box" id="Q_584" onclick="func_toggle('Q_584')">  the   </span>                
+         
+        <span class="I_box" id="Q_585" onclick="func_toggle('Q_585')">rainforests</span>                
+         
+        <span class="I_box" id="Q_586" onclick="func_toggle('Q_586')">   in   </span>                
+         
+        <span class="I_box" id="Q_587" onclick="func_toggle('Q_587')"> Africa </span>                
+         
+        <span class="I_box" id="Q_588" onclick="func_toggle('Q_588')">  and   </span>                
+         
+        <span class="I_box" id="Q_589" onclick="func_toggle('Q_589')"> South  </span>                
+         
+        <span class="I_box" id="Q_590" onclick="func_toggle('Q_590')">America </span>                
+        .</p>
+<p>
+</p>
+<p>
+
+        <span class="I_box" id="Q_591" onclick="func_toggle('Q_591')">  One   </span>                
+         
+        <span class="I_box" id="Q_592" onclick="func_toggle('Q_592')">  RFCx  </span>                
+         
+        <span class="I_box" id="Q_593" onclick="func_toggle('Q_593')">  can   </span>                
+         
+        <span class="I_box" id="Q_594" onclick="func_toggle('Q_594')">protect </span>                
+         
+        <span class="I_box" id="Q_595" onclick="func_toggle('Q_595')">  300   </span>                
+         
+        <span class="I_box" id="Q_596" onclick="func_toggle('Q_596')">hectares</span>                
+         
+        <span class="I_box" id="Q_597" onclick="func_toggle('Q_597')">   of   </span>                
+         
+        <span class="I_box" id="Q_598" onclick="func_toggle('Q_598')"> forest </span>                
+        . 
+        <span class="I_box" id="Q_599" onclick="func_toggle('Q_599')">   If   </span>                
+         
+        <span class="I_box" id="Q_600" onclick="func_toggle('Q_600')">   a    </span>                
+         
+        <span class="I_box" id="Q_601" onclick="func_toggle('Q_601')"> forest </span>                
+         
+        <span class="I_box" id="Q_602" onclick="func_toggle('Q_602')">   of   </span>                
+         
+        <span class="I_box" id="Q_603" onclick="func_toggle('Q_603')">  this  </span>                
+         
+        <span class="I_box" id="Q_604" onclick="func_toggle('Q_604')">  size  </span>                
+         
+        <span class="I_box" id="Q_605" onclick="func_toggle('Q_605')">   is   </span>                
+         
+        <span class="I_box" id="Q_606" onclick="func_toggle('Q_606')">  cut   </span>                
+        , 
+        <span class="I_box" id="Q_607" onclick="func_toggle('Q_607')">   15   </span>                
+        ,
+        <span class="I_box" id="Q_608" onclick="func_toggle('Q_608')">  000   </span>                
+         
+        <span class="I_box" id="Q_609" onclick="func_toggle('Q_609')">  tons  </span>                
+         
+        <span class="I_box" id="Q_610" onclick="func_toggle('Q_610')">   of   </span>                
+         
+        <span class="I_box" id="Q_611" onclick="func_toggle('Q_611')">  CO²   </span>                
+         
+        <span class="I_box" id="Q_612" onclick="func_toggle('Q_612')">  are   </span>                
+         
+        <span class="I_box" id="Q_613" onclick="func_toggle('Q_613')">released</span>                
+         
+        <span class="I_box" id="Q_614" onclick="func_toggle('Q_614')">  into  </span>                
+         
+        <span class="I_box" id="Q_615" onclick="func_toggle('Q_615')">  the   </span>                
+         
+        <span class="I_box" id="Q_616" onclick="func_toggle('Q_616')">  air   </span>                
+        . 
+        <span class="I_box" id="Q_617" onclick="func_toggle('Q_617')">Preventing</span>                
+         
+        <span class="I_box" id="Q_618" onclick="func_toggle('Q_618')">  this  </span>                
+         
+        <span class="I_box" id="Q_619" onclick="func_toggle('Q_619')"> amount </span>                
+         
+        <span class="I_box" id="Q_620" onclick="func_toggle('Q_620')">   of   </span>                
+         
+        <span class="I_box" id="Q_621" onclick="func_toggle('Q_621')">  CO²   </span>                
+         
+        <span class="I_box" id="Q_622" onclick="func_toggle('Q_622')">  from  </span>                
+         
+        <span class="I_box" id="Q_623" onclick="func_toggle('Q_623')"> being  </span>                
+         
+        <span class="I_box" id="Q_624" onclick="func_toggle('Q_624')">released</span>                
+         
+        <span class="I_box" id="Q_625" onclick="func_toggle('Q_625')">  has   </span>                
+         
+        <span class="I_box" id="Q_626" onclick="func_toggle('Q_626')">  the   </span>                
+         
+        <span class="I_box" id="Q_627" onclick="func_toggle('Q_627')">  same  </span>                
+         
+        <span class="I_box" id="Q_628" onclick="func_toggle('Q_628')"> effect </span>                
+         
+        <span class="I_box" id="Q_629" onclick="func_toggle('Q_629')">   as   </span>                
+         
+        <span class="I_box" id="Q_630" onclick="func_toggle('Q_630')"> taking </span>                
+         
+        <span class="I_box" id="Q_631" onclick="func_toggle('Q_631')">   3    </span>                
+        ,
+        <span class="I_box" id="Q_632" onclick="func_toggle('Q_632')">  000   </span>                
+         
+        <span class="I_box" id="Q_633" onclick="func_toggle('Q_633')">  cars  </span>                
+         
+        <span class="I_box" id="Q_634" onclick="func_toggle('Q_634')">  off   </span>                
+         
+        <span class="I_box" id="Q_635" onclick="func_toggle('Q_635')">  the   </span>                
+         
+        <span class="I_box" id="Q_636" onclick="func_toggle('Q_636')">  road  </span>                
+         
+        <span class="I_box" id="Q_637" onclick="func_toggle('Q_637')">  for   </span>                
+         
+        <span class="I_box" id="Q_638" onclick="func_toggle('Q_638')">   a    </span>                
+         
+        <span class="I_box" id="Q_639" onclick="func_toggle('Q_639')">  year  </span>                
+        . 
+        <span class="I_box" id="Q_640" onclick="func_toggle('Q_640')"> These  </span>                
+         
+        <span class="I_box" id="Q_641" onclick="func_toggle('Q_641')">devices </span>                
+         
+        <span class="I_box" id="Q_642" onclick="func_toggle('Q_642')">  are   </span>                
+         
+        <span class="I_box" id="Q_643" onclick="func_toggle('Q_643')"> saving </span>                
+         
+        <span class="I_box" id="Q_644" onclick="func_toggle('Q_644')">rainforests</span>                
+         
+        <span class="I_box" id="Q_645" onclick="func_toggle('Q_645')">  and   </span>                
+         
+        <span class="I_box" id="Q_646" onclick="func_toggle('Q_646')">providing</span>                
+         
+        <span class="I_box" id="Q_647" onclick="func_toggle('Q_647')">  new   </span>                
+         
+        <span class="I_box" id="Q_648" onclick="func_toggle('Q_648')">  life  </span>                
+         
+        <span class="I_box" id="Q_649" onclick="func_toggle('Q_649')">  for   </span>                
+         
+        <span class="I_box" id="Q_650" onclick="func_toggle('Q_650')">thousands</span>                
+         
+        <span class="I_box" id="Q_651" onclick="func_toggle('Q_651')">   of   </span>                
+         
+        <span class="I_box" id="Q_652" onclick="func_toggle('Q_652')">discarded</span>                
+         
+        <span class="I_box" id="Q_653" onclick="func_toggle('Q_653')">  cell  </span>                
+         
+        <span class="I_box" id="Q_654" onclick="func_toggle('Q_654')"> phones </span>                
+        . 
+        <span class="I_box" id="Q_655" onclick="func_toggle('Q_655')"> Thanks </span>                
+         
+        <span class="I_box" id="Q_656" onclick="func_toggle('Q_656')">   to   </span>                
+         
+        <span class="I_box" id="Q_657" onclick="func_toggle('Q_657')"> Topher </span>                
+         
+        <span class="I_box" id="Q_658" onclick="func_toggle('Q_658')"> White  </span>                
+         
+        <span class="I_box" id="Q_659" onclick="func_toggle('Q_659')">  and   </span>                
+         
+        <span class="I_box" id="Q_660" onclick="func_toggle('Q_660')">  his   </span>                
+         
+        <span class="I_box" id="Q_661" onclick="func_toggle('Q_661')">  RFCx  </span>                
+         
+        <span class="I_box" id="Q_662" onclick="func_toggle('Q_662')">devices </span>                
+        , 
+        <span class="I_box" id="Q_663" onclick="func_toggle('Q_663')">  the   </span>                
+         
+        <span class="I_box" id="Q_664" onclick="func_toggle('Q_664')"> earth  </span>                
+         
+        <span class="I_box" id="Q_665" onclick="func_toggle('Q_665')">   is   </span>                
+         
+        <span class="I_box" id="Q_666" onclick="func_toggle('Q_666')">  now   </span>                
+         
+        <span class="I_box" id="Q_667" onclick="func_toggle('Q_667')">   a    </span>                
+         
+        <span class="I_box" id="Q_668" onclick="func_toggle('Q_668')"> better </span>                
+         
+        <span class="I_box" id="Q_669" onclick="func_toggle('Q_669')"> place  </span>                
+         
+        <span class="I_box" id="Q_670" onclick="func_toggle('Q_670')">   to   </span>                
+         
+        <span class="I_box" id="Q_671" onclick="func_toggle('Q_671')">  live  </span>                
+        .</p>
+<p>
+</p>
+<p>
+<
+        <span class="I_box" id="Q_672" onclick="func_toggle('Q_672')">CULTURE </span>                
+        ></p>
+<p>
+</p>
+<p>
+
+        <span class="I_box" id="Q_673" onclick="func_toggle('Q_673')"> World  </span>                
+        ’ 
+        <span class="I_box" id="Q_674" onclick="func_toggle('Q_674')"> Major  </span>                
+         
+        <span class="I_box" id="Q_675" onclick="func_toggle('Q_675')">Rainforests</span>                
+        </p>
+<p>
+</p>
+<p>
+
+        <span class="I_box" id="Q_676" onclick="func_toggle('Q_676')">Tropical</span>                
+         
+        <span class="I_box" id="Q_677" onclick="func_toggle('Q_677')">rainforests</span>                
+         
+        <span class="I_box" id="Q_678" onclick="func_toggle('Q_678')">  are   </span>                
+         
+        <span class="I_box" id="Q_679" onclick="func_toggle('Q_679')">located </span>                
+         
+        <span class="I_box" id="Q_680" onclick="func_toggle('Q_680')">  near  </span>                
+         
+        <span class="I_box" id="Q_681" onclick="func_toggle('Q_681')">  the   </span>                
+         
+        <span class="I_box" id="Q_682" onclick="func_toggle('Q_682')">equator </span>                
+         
+        <span class="I_box" id="Q_683" onclick="func_toggle('Q_683')">  and   </span>                
+         
+        <span class="I_box" id="Q_684" onclick="func_toggle('Q_684')">  have  </span>                
+         
+        <span class="I_box" id="Q_685" onclick="func_toggle('Q_685')">   a    </span>                
+         
+        <span class="I_box" id="Q_686" onclick="func_toggle('Q_686')">  warm  </span>                
+         
+        <span class="I_box" id="Q_687" onclick="func_toggle('Q_687')">  and   </span>                
+         
+        <span class="I_box" id="Q_688" onclick="func_toggle('Q_688')">  wet   </span>                
+         
+        <span class="I_box" id="Q_689" onclick="func_toggle('Q_689')">climate </span>                
+        . 
+        <span class="I_box" id="Q_690" onclick="func_toggle('Q_690')">  They  </span>                
+         
+        <span class="I_box" id="Q_691" onclick="func_toggle('Q_691')"> cover  </span>                
+         
+        <span class="I_box" id="Q_692" onclick="func_toggle('Q_692')">  only  </span>                
+         
+        <span class="I_box" id="Q_693" onclick="func_toggle('Q_693')">   6    </span>                
+         
+        <span class="I_box" id="Q_694" onclick="func_toggle('Q_694')">percent </span>                
+         
+        <span class="I_box" id="Q_695" onclick="func_toggle('Q_695')">   of   </span>                
+         
+        <span class="I_box" id="Q_696" onclick="func_toggle('Q_696')">  the   </span>                
+         
+        <span class="I_box" id="Q_697" onclick="func_toggle('Q_697')"> earth  </span>                
+        ’ 
+        <span class="I_box" id="Q_698" onclick="func_toggle('Q_698')">surface </span>                
+         
+        <span class="I_box" id="Q_699" onclick="func_toggle('Q_699')">  but   </span>                
+         
+        <span class="I_box" id="Q_700" onclick="func_toggle('Q_700')">produce </span>                
+         
+        <span class="I_box" id="Q_701" onclick="func_toggle('Q_701')">   40   </span>                
+         
+        <span class="I_box" id="Q_702" onclick="func_toggle('Q_702')">percent </span>                
+         
+        <span class="I_box" id="Q_703" onclick="func_toggle('Q_703')">   of   </span>                
+         
+        <span class="I_box" id="Q_704" onclick="func_toggle('Q_704')">  the   </span>                
+         
+        <span class="I_box" id="Q_705" onclick="func_toggle('Q_705')"> world  </span>                
+        ’ 
+        <span class="I_box" id="Q_706" onclick="func_toggle('Q_706')"> oxygen </span>                
+        . 
+        <span class="I_box" id="Q_707" onclick="func_toggle('Q_707')">  Also  </span>                
+        , 
+        <span class="I_box" id="Q_708" onclick="func_toggle('Q_708')">  more  </span>                
+         
+        <span class="I_box" id="Q_709" onclick="func_toggle('Q_709')">  than  </span>                
+         
+        <span class="I_box" id="Q_710" onclick="func_toggle('Q_710')">  half  </span>                
+         
+        <span class="I_box" id="Q_711" onclick="func_toggle('Q_711')">   of   </span>                
+         
+        <span class="I_box" id="Q_712" onclick="func_toggle('Q_712')">  all   </span>                
+         
+        <span class="I_box" id="Q_713" onclick="func_toggle('Q_713')"> plant  </span>                
+         
+        <span class="I_box" id="Q_714" onclick="func_toggle('Q_714')">  and   </span>                
+         
+        <span class="I_box" id="Q_715" onclick="func_toggle('Q_715')"> animal </span>                
+         
+        <span class="I_box" id="Q_716" onclick="func_toggle('Q_716')">species </span>                
+         
+        <span class="I_box" id="Q_717" onclick="func_toggle('Q_717')">inhabit </span>                
+         
+        <span class="I_box" id="Q_718" onclick="func_toggle('Q_718')">rainforests</span>                
+        .</p>
+<p>
+</p>
+<p>
+
+        <span class="I_box" id="Q_719" onclick="func_toggle('Q_719')">   1    </span>                
+        . 
+        <span class="I_box" id="Q_720" onclick="func_toggle('Q_720')"> Amazon </span>                
+         
+        <span class="I_box" id="Q_721" onclick="func_toggle('Q_721')">Rainforest</span>                
+        </p>
+<p>
+– 
+        <span class="I_box" id="Q_722" onclick="func_toggle('Q_722')">  the   </span>                
+         
+        <span class="I_box" id="Q_723" onclick="func_toggle('Q_723')"> world  </span>                
+        ’ 
+        <span class="I_box" id="Q_724" onclick="func_toggle('Q_724')">largest </span>                
+         
+        <span class="I_box" id="Q_725" onclick="func_toggle('Q_725')">tropical</span>                
+         
+        <span class="I_box" id="Q_726" onclick="func_toggle('Q_726')">rainforest</span>                
+        </p>
+<p>
+– 
+        <span class="I_box" id="Q_727" onclick="func_toggle('Q_727')">spanning</span>                
+         
+        <span class="I_box" id="Q_728" onclick="func_toggle('Q_728')"> across </span>                
+         
+        <span class="I_box" id="Q_729" onclick="func_toggle('Q_729')"> eight  </span>                
+         
+        <span class="I_box" id="Q_730" onclick="func_toggle('Q_730')">countries</span>                
+        : 
+        <span class="I_box" id="Q_731" onclick="func_toggle('Q_731')"> Brazil </span>                
+        , 
+        <span class="I_box" id="Q_732" onclick="func_toggle('Q_732')">Bolivia </span>                
+        , 
+        <span class="I_box" id="Q_733" onclick="func_toggle('Q_733')">  Peru  </span>                
+        , 
+        <span class="I_box" id="Q_734" onclick="func_toggle('Q_734')">Ecuador </span>                
+        , 
+        <span class="I_box" id="Q_735" onclick="func_toggle('Q_735')">Colombia</span>                
+        , 
+        <span class="I_box" id="Q_736" onclick="func_toggle('Q_736')">Venezuela</span>                
+        , 
+        <span class="I_box" id="Q_737" onclick="func_toggle('Q_737')"> Guyana </span>                
+         
+        <span class="I_box" id="Q_738" onclick="func_toggle('Q_738')">  and   </span>                
+         
+        <span class="I_box" id="Q_739" onclick="func_toggle('Q_739')">Suriname</span>                
+        </p>
+<p>
+– 
+        <span class="I_box" id="Q_740" onclick="func_toggle('Q_740')">habitat </span>                
+         
+        <span class="I_box" id="Q_741" onclick="func_toggle('Q_741')">  for   </span>                
+         
+        <span class="I_box" id="Q_742" onclick="func_toggle('Q_742')">millions</span>                
+         
+        <span class="I_box" id="Q_743" onclick="func_toggle('Q_743')">   of   </span>                
+         
+        <span class="I_box" id="Q_744" onclick="func_toggle('Q_744')">species </span>                
+         
+        <span class="I_box" id="Q_745" onclick="func_toggle('Q_745')">including</span>                
+         
+        <span class="I_box" id="Q_746" onclick="func_toggle('Q_746')">   40   </span>                
+        ,
+        <span class="I_box" id="Q_747" onclick="func_toggle('Q_747')">  000   </span>                
+         
+        <span class="I_box" id="Q_748" onclick="func_toggle('Q_748')"> plant  </span>                
+         
+        <span class="I_box" id="Q_749" onclick="func_toggle('Q_749')">species </span>                
+        , 
+        <span class="I_box" id="Q_750" onclick="func_toggle('Q_750')">   3    </span>                
+        ,
+        <span class="I_box" id="Q_751" onclick="func_toggle('Q_751')">  000   </span>                
+         
+        <span class="I_box" id="Q_752" onclick="func_toggle('Q_752')">freshwater</span>                
+         
+        <span class="I_box" id="Q_753" onclick="func_toggle('Q_753')">  fish  </span>                
+         
+        <span class="I_box" id="Q_754" onclick="func_toggle('Q_754')">species </span>                
+         
+        <span class="I_box" id="Q_755" onclick="func_toggle('Q_755')">  and   </span>                
+         
+        <span class="I_box" id="Q_756" onclick="func_toggle('Q_756')">  more  </span>                
+         
+        <span class="I_box" id="Q_757" onclick="func_toggle('Q_757')">  than  </span>                
+         
+        <span class="I_box" id="Q_758" onclick="func_toggle('Q_758')">  370   </span>                
+         
+        <span class="I_box" id="Q_759" onclick="func_toggle('Q_759')"> types  </span>                
+         
+        <span class="I_box" id="Q_760" onclick="func_toggle('Q_760')">   of   </span>                
+         
+        <span class="I_box" id="Q_761" onclick="func_toggle('Q_761')">reptiles</span>                
+        </p>
+<p>
+– 
+        <span class="I_box" id="Q_762" onclick="func_toggle('Q_762')">  home  </span>                
+         
+        <span class="I_box" id="Q_763" onclick="func_toggle('Q_763')">   to   </span>                
+         
+        <span class="I_box" id="Q_764" onclick="func_toggle('Q_764')">  350   </span>                
+         
+        <span class="I_box" id="Q_765" onclick="func_toggle('Q_765')"> ethnic </span>                
+         
+        <span class="I_box" id="Q_766" onclick="func_toggle('Q_766')"> groups </span>                
+        </p>
+<p>
+</p>
+<p>
+
+        <span class="I_box" id="Q_767" onclick="func_toggle('Q_767')">   2    </span>                
+        . 
+        <span class="I_box" id="Q_768" onclick="func_toggle('Q_768')"> Congo  </span>                
+         
+        <span class="I_box" id="Q_769" onclick="func_toggle('Q_769')"> River  </span>                
+         
+        <span class="I_box" id="Q_770" onclick="func_toggle('Q_770')"> Basin  </span>                
+         
+        <span class="I_box" id="Q_771" onclick="func_toggle('Q_771')">Rainforest</span>                
+        </p>
+<p>
+– 
+        <span class="I_box" id="Q_772" onclick="func_toggle('Q_772')">  the   </span>                
+         
+        <span class="I_box" id="Q_773" onclick="func_toggle('Q_773')"> world  </span>                
+        ’ 
+        <span class="I_box" id="Q_774" onclick="func_toggle('Q_774')"> second </span>                
+        -
+        <span class="I_box" id="Q_775" onclick="func_toggle('Q_775')">largest </span>                
+         
+        <span class="I_box" id="Q_776" onclick="func_toggle('Q_776')">tropical</span>                
+         
+        <span class="I_box" id="Q_777" onclick="func_toggle('Q_777')">rainforest</span>                
+        </p>
+<p>
+– 
+        <span class="I_box" id="Q_778" onclick="func_toggle('Q_778')">spanning</span>                
+         
+        <span class="I_box" id="Q_779" onclick="func_toggle('Q_779')"> across </span>                
+         
+        <span class="I_box" id="Q_780" onclick="func_toggle('Q_780')">  six   </span>                
+         
+        <span class="I_box" id="Q_781" onclick="func_toggle('Q_781')">countries</span>                
+        : 
+        <span class="I_box" id="Q_782" onclick="func_toggle('Q_782')">Cameroon</span>                
+        , 
+        <span class="I_box" id="Q_783" onclick="func_toggle('Q_783')">Central </span>                
+         
+        <span class="I_box" id="Q_784" onclick="func_toggle('Q_784')">African </span>                
+         
+        <span class="I_box" id="Q_785" onclick="func_toggle('Q_785')">Republic</span>                
+        , 
+        <span class="I_box" id="Q_786" onclick="func_toggle('Q_786')">Democratic</span>                
+         
+        <span class="I_box" id="Q_787" onclick="func_toggle('Q_787')">Republic</span>                
+         
+        <span class="I_box" id="Q_788" onclick="func_toggle('Q_788')">   of   </span>                
+         
+        <span class="I_box" id="Q_789" onclick="func_toggle('Q_789')">  the   </span>                
+         
+        <span class="I_box" id="Q_790" onclick="func_toggle('Q_790')"> Congo  </span>                
+        , 
+        <span class="I_box" id="Q_791" onclick="func_toggle('Q_791')">Republic</span>                
+         
+        <span class="I_box" id="Q_792" onclick="func_toggle('Q_792')">   of   </span>                
+         
+        <span class="I_box" id="Q_793" onclick="func_toggle('Q_793')">  the   </span>                
+         
+        <span class="I_box" id="Q_794" onclick="func_toggle('Q_794')"> Congo  </span>                
+        , 
+        <span class="I_box" id="Q_795" onclick="func_toggle('Q_795')">Equatorial</span>                
+         
+        <span class="I_box" id="Q_796" onclick="func_toggle('Q_796')"> Guinea </span>                
+         
+        <span class="I_box" id="Q_797" onclick="func_toggle('Q_797')">  and   </span>                
+         
+        <span class="I_box" id="Q_798" onclick="func_toggle('Q_798')"> Gabon  </span>                
+        </p>
+<p>
+– 
+        <span class="I_box" id="Q_799" onclick="func_toggle('Q_799')">habitat </span>                
+         
+        <span class="I_box" id="Q_800" onclick="func_toggle('Q_800')">  for   </span>                
+         
+        <span class="I_box" id="Q_801" onclick="func_toggle('Q_801')">   10   </span>                
+        ,
+        <span class="I_box" id="Q_802" onclick="func_toggle('Q_802')">  000   </span>                
+         
+        <span class="I_box" id="Q_803" onclick="func_toggle('Q_803')">species </span>                
+         
+        <span class="I_box" id="Q_804" onclick="func_toggle('Q_804')">   of   </span>                
+         
+        <span class="I_box" id="Q_805" onclick="func_toggle('Q_805')">tropical</span>                
+         
+        <span class="I_box" id="Q_806" onclick="func_toggle('Q_806')"> plants </span>                
+        , 
+        <span class="I_box" id="Q_807" onclick="func_toggle('Q_807')">  400   </span>                
+         
+        <span class="I_box" id="Q_808" onclick="func_toggle('Q_808')">species </span>                
+         
+        <span class="I_box" id="Q_809" onclick="func_toggle('Q_809')">   of   </span>                
+         
+        <span class="I_box" id="Q_810" onclick="func_toggle('Q_810')">mammals </span>                
+        , 
+        <span class="I_box" id="Q_811" onclick="func_toggle('Q_811')">   1    </span>                
+        ,
+        <span class="I_box" id="Q_812" onclick="func_toggle('Q_812')">  000   </span>                
+         
+        <span class="I_box" id="Q_813" onclick="func_toggle('Q_813')">species </span>                
+         
+        <span class="I_box" id="Q_814" onclick="func_toggle('Q_814')">   of   </span>                
+         
+        <span class="I_box" id="Q_815" onclick="func_toggle('Q_815')"> birds  </span>                
+         
+        <span class="I_box" id="Q_816" onclick="func_toggle('Q_816')">  and   </span>                
+         
+        <span class="I_box" id="Q_817" onclick="func_toggle('Q_817')">  700   </span>                
+         
+        <span class="I_box" id="Q_818" onclick="func_toggle('Q_818')">species </span>                
+         
+        <span class="I_box" id="Q_819" onclick="func_toggle('Q_819')">   of   </span>                
+         
+        <span class="I_box" id="Q_820" onclick="func_toggle('Q_820')">  fish  </span>                
+        </p>
+<p>
+– 
+        <span class="I_box" id="Q_821" onclick="func_toggle('Q_821')">  home  </span>                
+         
+        <span class="I_box" id="Q_822" onclick="func_toggle('Q_822')">   to   </span>                
+         
+        <span class="I_box" id="Q_823" onclick="func_toggle('Q_823')">  150   </span>                
+         
+        <span class="I_box" id="Q_824" onclick="func_toggle('Q_824')"> ethnic </span>                
+         
+        <span class="I_box" id="Q_825" onclick="func_toggle('Q_825')"> groups </span>                
+        </p>
+<p>
+</p>
+<p>
+
+        <span class="I_box" id="Q_826" onclick="func_toggle('Q_826')">   3    </span>                
+        . 
+        <span class="I_box" id="Q_827" onclick="func_toggle('Q_827')">Rainforests</span>                
+         
+        <span class="I_box" id="Q_828" onclick="func_toggle('Q_828')">   of   </span>                
+         
+        <span class="I_box" id="Q_829" onclick="func_toggle('Q_829')">Southeast</span>                
+         
+        <span class="I_box" id="Q_830" onclick="func_toggle('Q_830')">  Asia  </span>                
+        </p>
+<p>
+– 
+        <span class="I_box" id="Q_831" onclick="func_toggle('Q_831')"> found  </span>                
+         
+        <span class="I_box" id="Q_832" onclick="func_toggle('Q_832')">   in   </span>                
+         
+        <span class="I_box" id="Q_833" onclick="func_toggle('Q_833')">Indonesia</span>                
+        , 
+        <span class="I_box" id="Q_834" onclick="func_toggle('Q_834')">Malaysia</span>                
+        , 
+        <span class="I_box" id="Q_835" onclick="func_toggle('Q_835')">Thailand</span>                
+        , 
+        <span class="I_box" id="Q_836" onclick="func_toggle('Q_836')">Myanmar </span>                
+        , 
+        <span class="I_box" id="Q_837" onclick="func_toggle('Q_837')">  Laos  </span>                
+         
+        <span class="I_box" id="Q_838" onclick="func_toggle('Q_838')">  and   </span>                
+         
+        <span class="I_box" id="Q_839" onclick="func_toggle('Q_839')">Cambodia</span>                
+        </p>
+<p>
+– 
+        <span class="I_box" id="Q_840" onclick="func_toggle('Q_840')">habitat </span>                
+         
+        <span class="I_box" id="Q_841" onclick="func_toggle('Q_841')">  for   </span>                
+         
+        <span class="I_box" id="Q_842" onclick="func_toggle('Q_842')">   15   </span>                
+        ,
+        <span class="I_box" id="Q_843" onclick="func_toggle('Q_843')">  000   </span>                
+         
+        <span class="I_box" id="Q_844" onclick="func_toggle('Q_844')"> plant  </span>                
+         
+        <span class="I_box" id="Q_845" onclick="func_toggle('Q_845')">species </span>                
+         
+        <span class="I_box" id="Q_846" onclick="func_toggle('Q_846')">  and   </span>                
+         
+        <span class="I_box" id="Q_847" onclick="func_toggle('Q_847')">hundreds</span>                
+         
+        <span class="I_box" id="Q_848" onclick="func_toggle('Q_848')">   of   </span>                
+         
+        <span class="I_box" id="Q_849" onclick="func_toggle('Q_849')">species </span>                
+         
+        <span class="I_box" id="Q_850" onclick="func_toggle('Q_850')">   of   </span>                
+         
+        <span class="I_box" id="Q_851" onclick="func_toggle('Q_851')">animals </span>                
+        </p>
+<p>
+– 
+        <span class="I_box" id="Q_852" onclick="func_toggle('Q_852')">  home  </span>                
+         
+        <span class="I_box" id="Q_853" onclick="func_toggle('Q_853')">   to   </span>                
+         
+        <span class="I_box" id="Q_854" onclick="func_toggle('Q_854')">   a    </span>                
+         
+        <span class="I_box" id="Q_855" onclick="func_toggle('Q_855')">variety </span>                
+         
+        <span class="I_box" id="Q_856" onclick="func_toggle('Q_856')">   of   </span>                
+         
+        <span class="I_box" id="Q_857" onclick="func_toggle('Q_857')"> ethnic </span>                
+         
+        <span class="I_box" id="Q_858" onclick="func_toggle('Q_858')"> groups </span>                
+        
+</p>
+<p>
+
+</p>
+	<!---내용 끝---->
+
+</body>
+</html>
